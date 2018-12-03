@@ -1,0 +1,315 @@
+* {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'Burbank';
+  src: url('fonts/BurbankBigCondensed-Bold.otf');
+}
+
+.background-image {
+  margin-top: 70px;
+  margin-bottom: -80px;
+  padding: 775px 0%;
+  background: url('https://c1.staticflickr.com/5/4341/36462433522_f3c5baff13_b.jpg') center center fixed;
+  background-size: cover;
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 35%;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 15px;
+  font-family: 'Burbank', 'Alegreya Sans SC', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.nav {
+  position: absolute;
+  top: 0px;
+  height: 70px;
+  background-color: #87313e;
+  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  text-align: right;
+  z-index: 1;
+}
+
+.menu a {
+  clear: right;
+  line-height: 70px;
+  padding: 26px 8px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 18px;
+  background-color: #87313e;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu a:hover {
+  background-color: #8C3A46;
+}
+
+#other {
+  margin-right: 10px;
+}
+
+.icon {
+  float: right;
+  display: none;
+  width: 26px;
+  line-height: 70px;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+#toggle {
+  display: none;
+}
+
+.gun-title {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.gun-nav {
+  text-align: center;
+}
+
+.gun-nav il {
+  margin: 0px 20px;
+}
+
+.gun-responsive {
+  display: inline;
+}
+
+.gun-image {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 8px;
+  padding: 5px;
+  box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
+  border: #ffffff 4px solid;
+}
+
+#assault-rifle-nav {
+  height: 187px;
+  border-top: solid #87313e 6px;
+  border-bottom: solid #87313e 6px;
+}
+
+#submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav {
+  height: 187px;
+  border-bottom: solid #873131 6px;
+}
+
+#other-nav {
+  height: 187px;
+}
+
+.footer-color {
+  height: 100px;
+  background-color: #87313e;
+  box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+}
+
+.copyright {
+  width: 96.7%;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* Common static */
+#assault-rifle, #burst-assault-rifle, #submachine-gun, #tactical-shotgun, #pistol {
+  background-image: radial-gradient(#d0d0d0 0%,#6d7071 100%);
+}
+/* Uncommon static */
+#pump-shotgun, #hunting-rifle, #six-shooter {
+  background: radial-gradient(#5BAD03 0%,#01700a 100%);
+}
+/* Rare static */
+#scoped-assault-rifle, #bolt-action-sniper-rifle, #suppressed-pistol, #grenade-launcher, #heavy-assault-rifle {
+  background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
+}
+/* Epic static */
+#thermal-assault-rifle, #suppressed-assault-rifle, #compact-submachine-gun, #heavy-shotgun, #double-barreled-shotgun, #heavy-sniper-rifle, #hand-cannon, #rocket-launcher, #quad-launcher, #minigun {
+  background: radial-gradient(#d27bf4 0%,#7907a5 100%);
+}
+/* Legendary static */
+# {
+  background: radial-gradient(#fb9625 0%,#875134 100%);
+}
+
+/* Common hover */
+# {
+  background-image: radial-gradient(#d0d0d0 0%,#6d7071 100%);
+}
+/* Uncommon hover */
+#pistol:hover {
+  background: radial-gradient(#5BAD03 0%,#01700a 100%);
+}
+/* Rare hover */
+#submachine-gun:hover, #tactical-shotgun:hover, #hunting-rifle:hover {
+  background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
+}
+/* Epic hover */
+#scoped-assault-rifle:hover, #bolt-action-sniper-rifle:hover, #suppressed-pistol:hover, #six-shooter:hover {
+  background: radial-gradient(#d27bf4 0%,#7907a5 100%);
+}
+/* Legendary hover */
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #compact-submachine-gun:hover, #heavy-shotgun:hover, #double-barreled-shotgun:hover, #heavy-sniper-rifle:hover, #hand-cannon:hover, #rocket-launcher:hover, #grenade-launcher:hover, #quad-launcher:hover, #minigun:hover, #heavy-assault-rifle:hover, #pump-shotgun:hover {
+  background: radial-gradient(#fb9625 0%,#875134 100%);
+}
+
+/* For screens of 1180px or less */
+@media only screen and (max-width: 1180px) {
+  .header {
+    position: absolute !important;
+    width: 85%;
+  }
+
+  .nav {
+    position: absolute !important;
+  }
+
+  .icon {
+    display: block;
+    padding-right: 18px;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu a {
+    display: block;
+    height: 12.5vh;
+    line-height: 12.5vh;
+    margin: 0px;
+    padding: 0px 0px;
+    border-bottom: 1px solid #eaeaeb;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+  }
+}
+
+/* For screens of 930px or less */
+@media only screen and (max-width: 930px) {
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .gun-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .gun-nav il {
+    margin: 0 10px;
+  }
+}
+
+/* For screens of 760px or less */
+@media only screen and (max-width: 760px) {
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .gun-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .gun-nav il {
+    margin: 0 5px;
+  }
+}
+
+/* For screens of 640px or less */
+@media only screen and (max-width: 640px) {
+  .header {
+    width: 78%;
+  }
+
+  .background-image {
+    padding: 945px 0%;
+  }
+
+  .gun-responsive {
+    display: block;
+  }
+
+  #assault-rifle-nav, #shotgun-nav, #pistol-nav {
+    padding-bottom: 95px;
+  }
+
+  #submachine-gun-nav, #shotgun-nav {
+    margin-top: 100px;
+  }
+
+  #sniper-rifle-nav, #pistol-nav {
+    margin-top: 200px;
+  }
+
+  #explosive-nav, #other-nav {
+    margin-top: 300px;
+  }
+}
+
+/* For screens of 580px or less */
+@media only screen and (max-width: 580px) {
+  .header {
+    font-size: 30px;
+  }
+}
+
+/* For screens of 360px or less */
+@media only screen and (max-width: 360px) {
+  image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .gun-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .gun-title {
+    font-size: 30px;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+}
