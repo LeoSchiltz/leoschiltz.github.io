@@ -461,13 +461,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 440px or less */
 @media only screen and (max-width: 440px) {
-  .header {
-    font-size: 24px;
-  }
-}
-
-/* For screens of 440px or less */
-@media only screen and (max-width: 440px) {
   .background-image {
     padding: 490px 0px;
   }
@@ -541,6 +534,12 @@ table.smallSiteTable tbody td {
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .header {
+    font-size: 26px;
+  }
+}
+
 @media only screen and (max-width: 350px) {
   table.smallSiteTable td, table.smallSiteTable th {
     padding: 4px 2px;
@@ -574,10 +573,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 330px or less */
 @media only screen and (max-width: 330px) {
-  .header {
-    font-size: 20px;
-  }
-
   table.smallSiteTable {
     width: 100%;
     height: 348px;

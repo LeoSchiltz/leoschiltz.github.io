@@ -293,6 +293,12 @@
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .header {
+    font-size: 26px;
+  }
+}
+
 /* For screens of 360px or less */
 @media only screen and (max-width: 360px) {
   image {
