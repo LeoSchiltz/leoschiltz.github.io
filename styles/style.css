@@ -31,6 +31,16 @@
   z-index: 2;
 }
 
+.heading {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 67px;
+  padding-left: 15px;
+  z-index: 3;
+}
+
 .nav {
   position: absolute;
   top: 0px;
@@ -205,8 +215,8 @@
 
   .menu a {
     display: block;
-    height: 12.5vh;
-    line-height: 12.5vh;
+    height: 10vh;
+    line-height: 10vh;
     margin: 0px;
     padding: 0px 0px;
     border-bottom: 1px solid #eaeaeb;
@@ -291,26 +301,24 @@
   .header {
     font-size: 30px;
   }
+
+  .heading {
+    width: 258px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   .header {
     font-size: 26px;
   }
+
+  .heading {
+    width: 225px;
+  }
 }
 
 /* For screens of 360px or less */
 @media only screen and (max-width: 360px) {
-  image {
-    width: 60px;
-    height: 60px;
-  }
-
-  .gun-image {
-    width: 60px;
-    height: 60px;
-  }
-
   .gun-title {
     font-size: 30px;
   }

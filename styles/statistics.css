@@ -38,7 +38,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 313px;
+  width: 342px;
   height: 70px;
   padding-left: 15px;
   z-index: 3;
@@ -364,7 +364,7 @@ table.smallSiteTable tbody td {
   }
 
   .heading {
-    width: 235px;
+    width: 262px;
   }
 
   .weapon-name {
@@ -534,12 +534,18 @@ table.smallSiteTable tbody td {
   }
 }
 
+/* For screens of 375px or less */
 @media only screen and (max-width: 375px) {
   .header {
     font-size: 26px;
   }
+
+  .heading {
+    width: 228px;
+  }
 }
 
+/* For screens of 350px or less */
 @media only screen and (max-width: 350px) {
   table.smallSiteTable td, table.smallSiteTable th {
     padding: 4px 2px;
