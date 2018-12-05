@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -13,7 +14,7 @@
   margin-top: 70px;
   margin-bottom: -80px;
   padding: 775px 0%;
-  background: url('../images/36462433522_f3c5baff13_b-magic.jpg') center center fixed;
+  background: url('../images/bigscreen.jpeg') center center fixed;
   background-size: cover;
 }
 
@@ -45,7 +46,7 @@
   position: absolute;
   top: 0px;
   height: 70px;
-  background-color: #87313e;
+  background-color: #742934;
   box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
@@ -59,7 +60,7 @@
   padding: 26px 8px;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 18px;
-  background-color: #87313e;
+  background-color: #742934;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
@@ -119,13 +120,13 @@
 
 #assault-rifle-nav {
   height: 187px;
-  border-top: solid #87313e 6px;
-  border-bottom: solid #87313e 6px;
+  border-top: solid #742934 6px;
+  border-bottom: solid #742934 6px;
 }
 
 #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav {
   height: 187px;
-  border-bottom: solid #873131 6px;
+  border-bottom: solid #742934 6px;
 }
 
 #other-nav {
@@ -134,7 +135,7 @@
 
 .footer-color {
   height: 100px;
-  background-color: #87313e;
+  background-color: #742934;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
