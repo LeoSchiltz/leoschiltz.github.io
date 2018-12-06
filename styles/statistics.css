@@ -12,7 +12,7 @@
 .background-image {
   margin-top: 70px;
   margin-bottom: -80px;
-  padding: 425px 0%;
+  padding: 450px 0%;
   background: url('../images/bigscreen.jpeg') center center fixed;
   background-size: cover;
 }
@@ -225,7 +225,7 @@ table.smallSiteTable tbody td {
 /* For screens of 925px or less */
 @media only screen and (max-width: 925px) {
   .background-image {
-    padding: 445px 0px;
+    padding: 470px 0px;
   }
 
   table.bigSiteTable {
@@ -255,7 +255,7 @@ table.smallSiteTable tbody td {
 /* For screens of 755px or less */
 @media only screen and (max-width: 755px) {
   .background-image {
-    padding: 480px 0;
+    padding: 505px 0;
   }
 
   .weapon {
@@ -320,7 +320,7 @@ table.smallSiteTable tbody td {
 /* For screens of 625px or less */
 @media only screen and (max-width: 645px) {
   .background-image {
-    padding: 470px 0px;
+    padding: 495px 0px;
   }
 
   table.smallSiteTable {
@@ -340,7 +340,7 @@ table.smallSiteTable tbody td {
 /* For screens of 625px or less */
 @media only screen and (max-width: 625px) {
   .background-image {
-    padding: 470px 0px;
+    padding: 495px 0px;
   }
 
   table.smallSiteTable {
@@ -395,7 +395,7 @@ table.smallSiteTable tbody td {
 /* For screens of 535px or less */
 @media only screen and (max-width: 535px) {
   .background-image {
-    padding: 475px 0px;
+    padding: 500px 0px;
   }
 
   table.smallSiteTable {
@@ -415,7 +415,7 @@ table.smallSiteTable tbody td {
 /* For screens of 500px or less */
 @media only screen and (max-width: 500px) {
   .background-image {
-    padding: 465px 0px;
+    padding: 490px 0px;
   }
 
   table.smallSiteTable {
@@ -442,7 +442,7 @@ table.smallSiteTable tbody td {
 /* For screens of 450px or less */
 @media only screen and (max-width: 450px) {
   .background-image {
-    padding: 490px 0px;
+    padding: 515px 0px;
   }
 
   table.smallSiteTable {
@@ -462,14 +462,14 @@ table.smallSiteTable tbody td {
 /* For screens of 440px or less */
 @media only screen and (max-width: 440px) {
   .background-image {
-    padding: 490px 0px;
+    padding: 515px 0px;
   }
 }
 
 /* For screens of 420px or less */
 @media only screen and (max-width: 420px) {
   .background-image {
-    padding: 440px 0px;
+    padding: 465px 0px;
   }
 
   .weapon {
