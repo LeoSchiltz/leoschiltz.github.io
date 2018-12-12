@@ -129,16 +129,58 @@
 #assault-rifle-nav {
   height: 187px;
   border-top: solid #742934 6px;
-  border-bottom: solid #742934 6px;
 }
 
-#submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav {
+#submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav, #other-nav {
   height: 187px;
-  border-bottom: solid #742934 6px;
+  border-top: solid #742934 6px;
 }
 
-#other-nav {
-  height: 187px;
+.category-description {
+  position: absolute;
+  top: -6px;
+  display: none;
+  height: 186.5px;
+  background-color: #742934;
+  z-index: 1;
+  border-top: solid #ffffff 6px;
+  border-bottom: solid #ffffff 6px;
+  -webkit-transition: height 0.8s ease-out;
+  -moz-transition: height 0.8s ease-out;
+  -o-transition: height 0.8s ease-out;
+  transition: height 0.8s ease-out;
+}
+
+.category-text {
+  width: 82%;
+  padding-top: 5px;
+  padding-left: 8px;
+  font-family: 'Burbank', sans-serif;
+  font-size: 30px;
+  color: #F4D03F;
+}
+
+.desc-toggle {
+  position: absolute;
+  top: 5px;
+  left: 84.4%;
+  width: 73px;
+  padding: 5px;
+  font-family: 'Burbank', sans-serif;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+  border: solid #ffffff 2px;
+}
+
+#toggle-1, #toggle-2, #toggle-3, #toggle-4, #toggle-5, #toggle-6, #toggle-7 {
+  display: none;
+}
+
+input[type=checkbox]:checked ~ .category-description {
+  position: absolute;
+  display: block;
 }
 
 .footer-color {
@@ -288,7 +330,7 @@
     display: block;
   }
 
-  #assault-rifle-nav, #shotgun-nav, #pistol-nav {
+  #assault-rifle-nav, #pistol-nav {
     padding-bottom: 95px;
   }
 
@@ -302,6 +344,10 @@
 
   #explosive-nav, #other-nav {
     margin-top: 300px;
+  }
+
+  .desc-toggle, .category-description {
+    display: none !important;
   }
 }
 
