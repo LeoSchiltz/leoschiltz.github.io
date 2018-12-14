@@ -145,10 +145,6 @@
   z-index: 1;
   border-top: solid #ffffff 6px;
   border-bottom: solid #ffffff 6px;
-  -webkit-transition: height 0.8s ease-out;
-  -moz-transition: height 0.8s ease-out;
-  -o-transition: height 0.8s ease-out;
-  transition: height 0.8s ease-out;
 }
 
 .category-text {
