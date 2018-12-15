@@ -13,7 +13,7 @@
 .background-image {
   margin-top: 70px;
   margin-bottom: -80px;
-  padding: 775px 0%;
+  padding: 795px 0%;
   background: url('../images/bigscreen.jpeg') center center fixed;
   background-size: cover;
 }
@@ -126,12 +126,7 @@
   box-shadow: 0px 0px 16px 8px rgba(107,103,107,1);
 }
 
-#assault-rifle-nav {
-  height: 187px;
-  border-top: solid #742934 6px;
-}
-
-#submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav, #other-nav {
+#assault-rifle-nav, #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav, #other-nav {
   height: 187px;
   border-top: solid #742934 6px;
 }
@@ -140,7 +135,7 @@
   position: absolute;
   top: -6px;
   display: none;
-  height: 186.5px;
+  height: 187px;
   background-color: #742934;
   z-index: 1;
   border-top: solid #ffffff 6px;
@@ -319,7 +314,7 @@ input[type=checkbox]:checked ~ .category-description {
   }
 
   .background-image {
-    padding: 945px 0%;
+    padding: 895px 0%;
   }
 
   .gun-responsive {
@@ -330,16 +325,12 @@ input[type=checkbox]:checked ~ .category-description {
     padding-bottom: 95px;
   }
 
-  #submachine-gun-nav, #shotgun-nav {
+  #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav {
     margin-top: 100px;
   }
 
-  #sniper-rifle-nav, #pistol-nav {
-    margin-top: 200px;
-  }
-
   #explosive-nav, #other-nav {
-    margin-top: 300px;
+    margin-top: 200px;
   }
 
   .desc-toggle, .category-description {
@@ -358,6 +349,7 @@ input[type=checkbox]:checked ~ .category-description {
   }
 }
 
+/* For screns of 375px or less */
 @media only screen and (max-width: 375px) {
   .header {
     font-size: 26px;
