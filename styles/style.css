@@ -14,7 +14,7 @@
   margin-top: 70px;
   margin-bottom: -80px;
   padding: 795px 0%;
-  background: url('../images/bigscreen.jpeg') center center fixed;
+  background: url('https://i.redd.it/00xj0ekhrv901.jpg') center center fixed;
   background-size: cover;
 }
 
@@ -46,7 +46,7 @@
   position: absolute;
   top: 0px;
   height: 70px;
-  background-color: #742934;
+  background-color: #5E83B0;
   box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
@@ -60,7 +60,7 @@
   padding: 25.4px 8px;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 18px;
-  background-color: #742934;
+  background-color: #5E83B0;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
@@ -68,7 +68,7 @@
 }
 
 .menu a:hover {
-  background-color: #8C3A46;
+  background-color: #7291b8;
 }
 
 #other {
@@ -128,30 +128,31 @@
 
 #assault-rifle-nav, #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav, #other-nav {
   height: 187px;
-  border-top: solid #742934 6px;
+  border-top: solid #a5b8d3 6px;
 }
 
-.category-description {
+.content {
   position: absolute;
   top: -6px;
-  display: none;
   height: 187px;
-  background-color: #742934;
+  max-height: 0px;
+  background-color: #5E83B0;
+  transition: max-height .3s ease-in-out;
+  overflow: hidden;
   z-index: 1;
-  border-top: solid #ffffff 6px;
-  border-bottom: solid #ffffff 6px;
+  border-top: solid #a5b8d3 6px;
 }
 
-.category-text {
+.text {
   width: 82%;
   padding-top: 5px;
   padding-left: 8px;
   font-family: 'Burbank', sans-serif;
   font-size: 30px;
-  color: #F4D03F;
+  color: #ffffff;
 }
 
-.desc-toggle {
+.click {
   position: absolute;
   top: 5px;
   left: 84.4%;
@@ -159,24 +160,30 @@
   padding: 5px;
   font-family: 'Burbank', sans-serif;
   font-size: 20px;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
-  z-index: 2;
+  z-index: 3;
   border: solid #ffffff 2px;
 }
 
-#toggle-1, #toggle-2, #toggle-3, #toggle-4, #toggle-5, #toggle-6, #toggle-7 {
+.click:hover {
+  background-color: #5E83B0;
+}
+
+#check, #check-2, #check-3, #check-4, #check-5, #check-6, #check-7 {
   display: none;
 }
 
-input[type=checkbox]:checked ~ .category-description {
-  position: absolute;
-  display: block;
+input[type="checkbox"]:checked ~ .content {
+  max-height: 187px;
+  border-top: solid #ffffff 6px;
+  border-bottom: solid #ffffff 6px;
+  z-index: 2;
 }
 
 .footer-color {
   height: 100px;
-  background-color: #742934;
+  background-color: #5E83B0;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -212,7 +219,6 @@ input[type=checkbox]:checked ~ .category-description {
 # {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
-
 /* Common hover */
 # {
   background-image: radial-gradient(#d0d0d0 0%,#6d7071 100%);
@@ -333,7 +339,7 @@ input[type=checkbox]:checked ~ .category-description {
     margin-top: 200px;
   }
 
-  .desc-toggle, .category-description {
+  .click, .content {
     display: none !important;
   }
 }
