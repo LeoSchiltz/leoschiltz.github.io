@@ -5,17 +5,17 @@
   scroll-behavior: smooth;
 }
 
+html {
+  background: url('https://i.redd.it/00xj0ekhrv901.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @font-face {
   font-family: 'Burbank';
   src: url('fonts/BurbankBigCondensed-Bold.otf');
-}
-
-.background-image {
-  margin-top: 70px;
-  margin-bottom: -80px;
-  padding: 795px 0%;
-  background: url('https://i.redd.it/00xj0ekhrv901.jpg') center center fixed;
-  background-size: 100% 100%;
 }
 
 .header {
@@ -318,10 +318,6 @@ input[type="checkbox"]:checked ~ .content {
 @media only screen and (max-width: 640px) {
   .header {
     width: 78%;
-  }
-
-  .background-image {
-    padding: 895px 0%;
   }
 
   .gun-responsive {
