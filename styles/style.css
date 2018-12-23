@@ -15,12 +15,7 @@
   margin-bottom: -80px;
   padding: 760px 0%;
   background: url(../images/fortnitebkg.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/fortnitebkg.png',     sizingMethod='scale');
- -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/fortnitebkg.png', sizingMethod='scale');
+  background-size: cover;
 }
 
 .header {
@@ -387,5 +382,9 @@ input[type="checkbox"]:checked ~ .content {
 
   .copyright {
     font-size: 10px;
+  }
+
+  .background-image {
+    background-size: 312%;
   }
 }
