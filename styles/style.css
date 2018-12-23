@@ -341,6 +341,11 @@ input[type="checkbox"]:checked ~ .content {
   .click, .content {
     display: none !important;
   }
+
+  .footer {
+    position: absolute;
+    top: 200px;
+  }
 }
 
 /* For screens of 580px or less */
