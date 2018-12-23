@@ -5,17 +5,17 @@
   scroll-behavior: smooth;
 }
 
-html {
-  background: url('../images/fortnitebkg.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 @font-face {
   font-family: 'Burbank';
   src: url('fonts/BurbankBigCondensed-Bold.otf');
+}
+
+.background-image {
+  margin-top: 70px;
+  margin-bottom: -80px;
+  padding: 760px 0%;
+  background: url('https://i.redd.it/00xj0ekhrv901.jpg') center center fixed;
+  background-size: cover;
 }
 
 .header {
@@ -318,6 +318,10 @@ input[type="checkbox"]:checked ~ .content {
 
 /* For screens of 640px or less */
 @media only screen and (max-width: 640px) {
+  .background-image {
+    padding: 900px 0px;
+  }
+
   .header {
     width: 78%;
   }
