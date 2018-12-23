@@ -15,8 +15,7 @@
   margin-bottom: -80px;
   padding: 760px 0%;
   background: url(../images/fortnitebkg.png) no-repeat center center fixed;
-  background-size: 100% cover;
-  width: 100%;
+  background-size: 100% 100%;
 }
 
 .header {
