@@ -15,7 +15,12 @@
   margin-bottom: -80px;
   padding: 760px 0%;
   background: url(../images/fortnitebkg.png) no-repeat center center fixed;
-  background-size: cover;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/fortnitebkg.png',     sizingMethod='scale');
+ -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/fortnitebkg.png', sizingMethod='scale');
 }
 
 .header {
