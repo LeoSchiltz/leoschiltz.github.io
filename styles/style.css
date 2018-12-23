@@ -299,12 +299,6 @@ input[type="checkbox"]:checked ~ .content {
   }
 }
 
-@media screen and (max-width:768px){
-  .background-image {
-    background-size: contain;
-  }
-}
-
 /* For screens of 760px or less */
 @media only screen and (max-width: 760px) {
   img {
