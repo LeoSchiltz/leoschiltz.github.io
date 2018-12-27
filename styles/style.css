@@ -391,10 +391,4 @@ input[type="checkbox"]:checked ~ .content {
   .copyright {
     font-size: 10px;
   }
-
-  .background-image {
-    background-position: top;
-    background-attachment: fixed;
-    background-size: 312%;
-  }
 }
