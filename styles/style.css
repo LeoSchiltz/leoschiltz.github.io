@@ -11,19 +11,19 @@
 }
 
 body:before {
-  content: "";
-  display: block;
   position: fixed;
-  left: 0;
-  top: 0;
+  top: 0px;
+  left: 0px;
+  display: block;
+  content: "";
   width: 100%;
   height: 100%;
-  z-index: -10;
   background: url(../images/fortnitebkg.png) no-repeat center center;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  z-index: -10;
 }
 
 .header {
@@ -54,7 +54,7 @@ body:before {
   position: absolute;
   top: 0px;
   height: 70px;
-  background-color: #5E83B0;
+  background-color: #5e83b0;
   box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
@@ -68,7 +68,7 @@ body:before {
   padding: 25.4px 8px;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 18px;
-  background-color: #5E83B0;
+  background-color: #5e83b0;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
@@ -144,7 +144,7 @@ body:before {
   top: -6px;
   height: 187px;
   max-height: 0px;
-  background-color: #5E83B0;
+  background-color: #5e83b0;
   transition: max-height .3s ease-in-out;
   overflow: hidden;
   z-index: 1;
@@ -176,7 +176,7 @@ body:before {
 }
 
 .click:hover {
-  background-color: #5E83B0;
+  background-color: #5e83b0;
 }
 
 #check, #check-2, #check-3, #check-4, #check-5, #check-6, #check-7 {
@@ -194,7 +194,7 @@ input[type="checkbox"]:checked ~ .content {
   position: absolute;
   top: 1580px;
   height: 100px;
-  background-color: #5E83B0;
+  background-color: #5e83b0;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -212,14 +212,14 @@ input[type="checkbox"]:checked ~ .content {
 
 /* Common static */
 #assault-rifle, #burst-assault-rifle, #submachine-gun, #tactical-shotgun, #pistol {
-  background-image: radial-gradient(#d0d0d0 0%,#6d7071 100%);
+  background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
 #pump-shotgun, #hunting-rifle, #six-shooter {
-  background: radial-gradient(#5BAD03 0%,#01700a 100%);
+  background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare static */
-#scoped-assault-rifle, #bolt-action-sniper-rifle, #suppressed-pistol, #grenade-launcher, #heavy-assault-rifle {
+#scoped-assault-rifle, #heavy-assault-rifle, #bolt-action-sniper-rifle, #suppressed-pistol, #grenade-launcher {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic static */
@@ -232,11 +232,11 @@ input[type="checkbox"]:checked ~ .content {
 }
 /* Common hover */
 # {
-  background-image: radial-gradient(#d0d0d0 0%,#6d7071 100%);
+  background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon hover */
 #pistol:hover {
-  background: radial-gradient(#5BAD03 0%,#01700a 100%);
+  background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
 #submachine-gun:hover, #tactical-shotgun:hover, #hunting-rifle:hover {
@@ -247,19 +247,14 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #compact-submachine-gun:hover, #heavy-shotgun:hover, #double-barreled-shotgun:hover, #heavy-sniper-rifle:hover, #hand-cannon:hover, #rocket-launcher:hover, #grenade-launcher:hover, #quad-launcher:hover, #minigun:hover, #heavy-assault-rifle:hover, #pump-shotgun:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #heavy-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barreled-shotgun:hover, #heavy-sniper-rifle:hover, #hand-cannon:hover, #rocket-launcher:hover, #grenade-launcher:hover, #quad-launcher:hover, #minigun:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
 /* For screens of 1180px or less */
 @media only screen and (max-width: 1180px) {
   .header {
-    position: absolute !important;
     width: 85%;
-  }
-
-  .nav {
-    position: absolute !important;
   }
 
   .icon {
@@ -292,11 +287,6 @@ input[type="checkbox"]:checked ~ .content {
 
 /* For screens of 930px or less */
 @media only screen and (max-width: 930px) {
-  img {
-    width: 80px;
-    height: 80px;
-  }
-
   .gun-image {
     width: 80px;
     height: 80px;
@@ -309,11 +299,6 @@ input[type="checkbox"]:checked ~ .content {
 
 /* For screens of 760px or less */
 @media only screen and (max-width: 760px) {
-  img {
-    width: 70px;
-    height: 70px;
-  }
-
   .gun-image {
     width: 70px;
     height: 70px;
@@ -326,10 +311,6 @@ input[type="checkbox"]:checked ~ .content {
 
 /* For screens of 640px or less */
 @media only screen and (max-width: 640px) {
-  .background-image {
-    padding: 900px 0px;
-  }
-
   .header {
     width: 78%;
   }
@@ -350,8 +331,8 @@ input[type="checkbox"]:checked ~ .content {
     margin-top: 200px;
   }
 
-  .click, .content {
-    display: none !important;
+  .content, .click {
+    display: none;
   }
 
   .footer {

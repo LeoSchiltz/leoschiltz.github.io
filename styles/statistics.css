@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -9,12 +10,20 @@
   src: url('fonts/BurbankBigCondensed-Bold.otf');
 }
 
-.background-image {
-  margin-top: 70px;
-  margin-bottom: -80px;
-  padding: 450px 0%;
-  background: url('../images/fortnitebkg.png') center center fixed;
+body:before {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url(../images/fortnitebkg.png) no-repeat center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: -10;
 }
 
 .header {
@@ -71,8 +80,8 @@
   top: 3px;
   left: 165px;
   width: 328px;
-  font-size: 55px;
   line-height: 45px;
+  font-size: 55px;
 }
 
 .weapon-specifics {
@@ -82,7 +91,7 @@
   width: 320px;
   line-height: 22px;
   font-size: 20px;
-  color: #F7CA18;
+  color: #f7ca18;
 }
 
 .desc-name {
@@ -162,6 +171,8 @@ table.smallSiteTable tbody td {
 }
 
 .footer-color {
+  position: absolute;
+  top: 800px;
   height: 100px;
   background-color: #5E83B0;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -224,10 +235,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 925px or less */
 @media only screen and (max-width: 925px) {
-  .background-image {
-    padding: 470px 0px;
-  }
-
   table.bigSiteTable {
     display: none;
   }
@@ -235,13 +242,10 @@ table.smallSiteTable tbody td {
   table.smallSiteTable {
     display: block;
   }
-}
 
-/* For screens of 845px or less */
-@media only screen and (max-width: 845px) {
-  table.bigSiteTable {
+  .footer-color {
     position: absolute;
-    left: 0px;
+    top: 850px;
   }
 }
 
@@ -254,10 +258,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 755px or less */
 @media only screen and (max-width: 755px) {
-  .background-image {
-    padding: 505px 0;
-  }
-
   .weapon {
     height: 230px;
   }
@@ -315,14 +315,15 @@ table.smallSiteTable tbody td {
     position: absolute;
     top: 490px;
   }
+
+  .footer-color {
+    position: absolute;
+    top: 920px;
+  }
 }
 
-/* For screens of 625px or less */
+/* For screens of 645px or less */
 @media only screen and (max-width: 645px) {
-  .background-image {
-    padding: 495px 0px;
-  }
-
   table.smallSiteTable {
     width: 100%;
     height: 330px;
@@ -332,28 +333,16 @@ table.smallSiteTable tbody td {
     padding: 4px 15px;
   }
 
-  table.smallSiteTable tbody td {
-    font-size: 15px;
+  .footer-color {
+    position: absolute;
+    top: 900px;
   }
 }
 
 /* For screens of 625px or less */
 @media only screen and (max-width: 625px) {
-  .background-image {
-    padding: 495px 0px;
-  }
-
-  table.smallSiteTable {
-    width: 100%;
-    height: 330px;
-  }
-
   table.smallSiteTable td, table.smallSiteTable th {
     padding: 4px 20px;
-  }
-
-  table.smallSiteTable tbody td {
-    font-size: 15px;
   }
 }
 
@@ -378,26 +367,13 @@ table.smallSiteTable tbody td {
 
 /* For screens of 560px or less */
 @media only screen and (max-width: 560px) {
-  table.smallSiteTable {
-    width: 100%;
-    height: 330px;
-  }
-
   table.smallSiteTable td, table.smallSiteTable th {
     padding: 4px 20px;
-  }
-
-  table.smallSiteTable tbody td {
-    font-size: 15px;
   }
 }
 
 /* For screens of 535px or less */
 @media only screen and (max-width: 535px) {
-  .background-image {
-    padding: 500px 0px;
-  }
-
   table.smallSiteTable {
     width: 100%;
     height: 344px;
@@ -407,17 +383,14 @@ table.smallSiteTable tbody td {
     padding: 5px 18px;
   }
 
-  table.smallSiteTable tbody td {
-    font-size: 15px;
+  .footer-color {
+    position: absolute;
+    top: 915px;
   }
 }
 
 /* For screens of 500px or less */
 @media only screen and (max-width: 500px) {
-  .background-image {
-    padding: 490px 0px;
-  }
-
   table.smallSiteTable {
     width: 100%;
     height: 330px;
@@ -427,8 +400,9 @@ table.smallSiteTable tbody td {
     padding: 4px 16px;
   }
 
-  table.smallSiteTable tbody td {
-    font-size: 15px;
+  .footer-color {
+    position: absolute;
+    top: 900px;
   }
 }
 
@@ -441,10 +415,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 450px or less */
 @media only screen and (max-width: 450px) {
-  .background-image {
-    padding: 515px 0px;
-  }
-
   table.smallSiteTable {
     width: 100%;
     height: 388px;
@@ -454,24 +424,22 @@ table.smallSiteTable tbody td {
     padding: 8.15px 10px;
   }
 
-  table.smallSiteTable tbody td {
-    font-size: 15px;
+  .footer-color {
+    position: absolute;
+    top: 955px;
   }
 }
 
 /* For screens of 440px or less */
 @media only screen and (max-width: 440px) {
-  .background-image {
-    padding: 515px 0px;
+  .footer-color {
+    position: absolute;
+    top: 950px;
   }
 }
 
 /* For screens of 420px or less */
 @media only screen and (max-width: 420px) {
-  .background-image {
-    padding: 465px 0px;
-  }
-
   .weapon {
     height: 190px;
   }
@@ -529,8 +497,9 @@ table.smallSiteTable tbody td {
     padding: 4px 6px;
   }
 
-  table.smallSiteTable tbody td {
-    font-size: 15px;
+  .footer-color {
+    position: absolute;
+    top: 890px;
   }
 }
 
@@ -586,9 +555,5 @@ table.smallSiteTable tbody td {
 
   table.smallSiteTable td, table.smallSiteTable th {
     padding: 5.3px 2px;
-  }
-
-  table.smallSiteTable tbody td {
-    font-size: 15px;
   }
 }
