@@ -54,7 +54,7 @@ body:before {
   position: absolute;
   top: 0px;
   height: 70px;
-  background-color: #5e83b0;
+  background-color: #223861;
   box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
@@ -68,7 +68,7 @@ body:before {
   padding: 25.4px 8px;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 18px;
-  background-color: #5e83b0;
+  background-color: #0a2454;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
@@ -76,7 +76,7 @@ body:before {
 }
 
 .menu a:hover {
-  background-color: #7291b8;
+  background-color: #324a77;
 }
 
 #other {
@@ -136,7 +136,7 @@ body:before {
 
 #assault-rifle-nav, #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav, #other-nav {
   height: 187px;
-  border-top: solid #a5b8d3 6px;
+  border-top: solid #0a2454 6px;
 }
 
 .content {
@@ -144,11 +144,11 @@ body:before {
   top: -6px;
   height: 187px;
   max-height: 0px;
-  background-color: #5e83b0;
+  background-color: #324a77;
   transition: max-height .3s ease-in-out;
   overflow: hidden;
   z-index: 1;
-  border-top: solid #a5b8d3 6px;
+  border-top: solid #324a77 6px;
 }
 
 .text {
@@ -176,7 +176,8 @@ body:before {
 }
 
 .click:hover {
-  background-color: #5e83b0;
+  background-color: #324a77;
+  transition: .3s ease-in;
 }
 
 #check, #check-2, #check-3, #check-4, #check-5, #check-6, #check-7 {
@@ -194,7 +195,7 @@ input[type="checkbox"]:checked ~ .content {
   position: absolute;
   top: 1580px;
   height: 100px;
-  background-color: #5e83b0;
+  background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
