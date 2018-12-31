@@ -265,7 +265,10 @@ input[type="checkbox"]:checked ~ .content {
   }
 
   .menu {
-    display: none;
+    max-height: 0px;
+    transition: max-height .4s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
   }
 
   .menu a {
@@ -282,8 +285,13 @@ input[type="checkbox"]:checked ~ .content {
   }
 
   #toggle:checked + .menu {
-    display: block;
+    opacity: 1;
+    max-height: 500px;
   }
+
+  #toggle:not(checked) + .menu {
+    opacity: 1;
+    max-height: 0px;
 }
 
 /* For screens of 930px or less */
