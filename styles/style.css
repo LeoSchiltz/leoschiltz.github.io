@@ -87,6 +87,7 @@ body:before {
   float: right;
   display: none;
   width: 26px;
+  padding-left: 13px;
   line-height: 70px;
   font-size: 60px;
   color: #ffffff;
@@ -285,7 +286,7 @@ input[type="checkbox"]:checked ~ .content {
   }
 
   #toggle:checked + .menu {
-    max-height: 1000px;
+    max-height: 600px;
     opacity: 1;
   }
 
@@ -350,25 +351,26 @@ input[type="checkbox"]:checked ~ .content {
   }
 }
 
-/* For screens of 580px or less */
-@media only screen and (max-width: 580px) {
+/* For screns of 440px or less */
+@media only screen and (max-width: 440px) {
   .header {
-    font-size: 30px;
+    font-size: 34px;
   }
 
   .heading {
-    width: 245px;
+    width: 275px;
   }
 }
 
-/* For screns of 375px or less */
-@media only screen and (max-width: 375px) {
+/* For screns of 385px or less */
+@media only screen and (max-width: 385px) {
   .header {
-    font-size: 26px;
+    font-size: 28.5px;
+    padding-left: 8px;
   }
 
   .heading {
-    width: 213px;
+    width: 223px;
   }
 }
 
