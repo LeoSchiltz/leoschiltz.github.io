@@ -130,9 +130,9 @@ body:before {
 
 .gun-image:hover {
   transition: .3s ease-in;
-  -webkit-box-shadow: 0px 0px 18px 3px rgba(38,38,38,1);
-  -moz-box-shadow: 0px 0px 18px 3px rgba(38,38,38,1);
-  box-shadow: 0px 0px 18px 3px rgba(38,38,38,1);
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
 }
 
 #assault-rifle-nav, #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav, #other-nav {
@@ -267,7 +267,7 @@ input[type="checkbox"]:checked ~ .content {
 
   .menu {
     max-height: 0px;
-    transition: max-height .4s ease-in-out;
+    transition: max-height .5s ease-in-out;
     opacity: 0;
     overflow: hidden;
   }
@@ -286,7 +286,7 @@ input[type="checkbox"]:checked ~ .content {
   }
 
   #toggle:checked + .menu {
-    max-height: 600px;
+    max-height: 1000px;
     opacity: 1;
   }
 
