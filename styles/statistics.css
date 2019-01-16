@@ -558,3 +558,26 @@ table.smallSiteTable tbody td {
     padding: 5.3px 2px;
   }
 }
+
+@media only screen and (max-width: 319px) {
+  .header {
+    font-size: 26px;
+  }
+
+  .weapon-name {
+    position: absolute;
+    left: 100px;
+    width: 180px;
+  }
+
+  .weapon-specifics {
+    position: absolute;
+    left: 95px;
+    width: 181px;
+    font-size: 15px;
+  }
+
+  .border {
+    width: 99%;
+  }
+}

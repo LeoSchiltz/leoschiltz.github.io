@@ -213,19 +213,19 @@ input[type="checkbox"]:checked ~ .content {
 }
 
 /* Common static */
-#assault-rifle, #burst-assault-rifle, #submachine-gun, #tactical-shotgun, #pistol {
+#assault-rifle, #submachine-gun, #tactical-shotgun, #pistol {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
-#pump-shotgun, #hunting-rifle, #six-shooter {
+#scoped-assault-rifle, #pump-shotgun, #hunting-rifle, #six-shooter {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare static */
-#scoped-assault-rifle, #heavy-assault-rifle, #bolt-action-sniper-rifle, #suppressed-pistol, #grenade-launcher {
+#heavy-assault-rifle, #bolt-action-sniper-rifle, #suppressed-pistol, #dual-pistol, #grenade-launcher {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic static */
-#thermal-assault-rifle, #suppressed-assault-rifle, #compact-submachine-gun, #heavy-shotgun, #double-barreled-shotgun, #heavy-sniper-rifle, #hand-cannon, #rocket-launcher, #quad-launcher, #minigun {
+#burst-assault-rifle, #thermal-assault-rifle, #suppressed-assault-rifle, #compact-submachine-gun, #heavy-shotgun, #double-barreled-shotgun, #heavy-sniper-rifle, #suppressed-sniper-rifle, #hand-cannon, #scoped-revolver, #rocket-launcher, #quad-launcher, #minigun {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary static */
@@ -241,15 +241,15 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
-#submachine-gun:hover, #tactical-shotgun:hover, #hunting-rifle:hover {
+#scoped-assault-rifle:hover, #submachine-gun:hover, #tactical-shotgun:hover, #hunting-rifle:hover {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */
-#scoped-assault-rifle:hover, #bolt-action-sniper-rifle:hover, #suppressed-pistol:hover, #six-shooter:hover {
+#bolt-action-sniper-rifle:hover, #suppressed-pistol:hover, #dual-pistol:hover {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #heavy-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barreled-shotgun:hover, #heavy-sniper-rifle:hover, #hand-cannon:hover, #rocket-launcher:hover, #grenade-launcher:hover, #quad-launcher:hover, #minigun:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #heavy-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barreled-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #quad-launcher:hover, #minigun:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
@@ -329,7 +329,7 @@ input[type="checkbox"]:checked ~ .content {
     display: block;
   }
 
-  #assault-rifle-nav, #pistol-nav {
+  #assault-rifle-nav, #sniper-rifle-nav, #pistol-nav {
     padding-bottom: 95px;
   }
 
@@ -337,8 +337,12 @@ input[type="checkbox"]:checked ~ .content {
     margin-top: 100px;
   }
 
-  #explosive-nav, #other-nav {
+  #pistol-nav {
     margin-top: 200px;
+  }
+
+  #explosive-nav, #other-nav {
+    margin-top: 300px;
   }
 
   .content, .click {
@@ -347,7 +351,7 @@ input[type="checkbox"]:checked ~ .content {
 
   .footer {
     position: absolute;
-    top: 200px;
+    top: 300px;
   }
 }
 
@@ -382,5 +386,16 @@ input[type="checkbox"]:checked ~ .content {
 
   .copyright {
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  .header {
+    font-size: 26px;
+  }
+
+  .gun-image {
+    width: 65px;
+    height: 65px;
   }
 }
