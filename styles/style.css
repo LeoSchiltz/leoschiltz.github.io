@@ -225,7 +225,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic static */
-#burst-assault-rifle, #thermal-assault-rifle, #suppressed-assault-rifle, #compact-submachine-gun, #heavy-shotgun, #double-barreled-shotgun, #heavy-sniper-rifle, #suppressed-sniper-rifle, #hand-cannon, #scoped-revolver, #rocket-launcher, #quad-launcher, #minigun {
+#burst-assault-rifle, #thermal-assault-rifle, #suppressed-assault-rifle, #compact-submachine-gun, #heavy-shotgun, #double-barreled-shotgun, #heavy-sniper-rifle, #suppressed-sniper-rifle, #hand-cannon, #scoped-revolver, #rocket-launcher, #quad-launcher, #minigun, #fiend-hunter-crossbow {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary static */
@@ -245,7 +245,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */
-#bolt-action-sniper-rifle:hover, #suppressed-pistol:hover, #dual-pistol:hover {
+#bolt-action-sniper-rifle:hover, #suppressed-pistol:hover, #dual-pistol:hover, #fiend-hunter-crossbow:hover {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
