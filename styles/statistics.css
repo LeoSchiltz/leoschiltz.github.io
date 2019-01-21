@@ -506,12 +506,12 @@ table.smallSiteTable tbody td {
 /* For screns of 385px or less */
 @media only screen and (max-width: 385px) {
   .header {
-    font-size: 28.5px;
+    font-size: 27px;
     padding-left: 8px;
   }
 
   .heading {
-    width: 223px;
+    width: 213px;
   }
 }
 
