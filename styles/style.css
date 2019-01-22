@@ -217,7 +217,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
-#scoped-assault-rifle, #pump-shotgun, #hunting-rifle, #six-shooter {
+#scoped-assault-rifle, #pump-shotgun, #hunting-rifle {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare static */
@@ -225,7 +225,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic static */
-#burst-assault-rifle, #thermal-assault-rifle, #suppressed-assault-rifle, #compact-submachine-gun, #heavy-shotgun, #double-barreled-shotgun, #heavy-sniper-rifle, #suppressed-sniper-rifle, #hand-cannon, #scoped-revolver, #rocket-launcher, #quad-launcher, #minigun, #fiend-hunter-crossbow {
+#burst-assault-rifle, #thermal-assault-rifle, #suppressed-assault-rifle, #compact-submachine-gun, #heavy-shotgun, #heavy-sniper-rifle, #suppressed-sniper-rifle, #hand-cannon, #scoped-revolver, #rocket-launcher, #minigun, #fiend-hunter-crossbow {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary static */
@@ -249,7 +249,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #heavy-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barreled-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #quad-launcher:hover, #minigun:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #heavy-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #minigun:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
