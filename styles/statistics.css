@@ -170,9 +170,35 @@ table.smallSiteTable tbody td {
   font-size: 15px;
 }
 
+.in-depth-desc {
+  position: absolute;
+  top: 650px;
+  height: 150px;
+  background-color: #223861;
+  border-top: solid #ffffff;
+  border-bottom: solid #ffffff;
+}
+
+.desc-title {
+  box-sizing: border-box;
+  padding-left: 5px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #ffffff;
+  border-bottom: solid #ffffff 1px;
+}
+
+.desc-paragraph {
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 8px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #f7ca18;
+}
+
 .footer-color {
   position: absolute;
-  top: 700px;
+  top: 850px;
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -243,9 +269,14 @@ table.smallSiteTable tbody td {
     display: block;
   }
 
+  .in-depth-desc {
+    position: absolute;
+    top: 700px;
+  }
+
   .footer-color {
     position: absolute;
-    top: 750px;
+    top: 900px;
   }
 }
 
@@ -316,9 +347,14 @@ table.smallSiteTable tbody td {
     top: 390px;
   }
 
+  .in-depth-desc {
+    position: absolute;
+    top: 775px;
+  }
+
   .footer-color {
     position: absolute;
-    top: 820px;
+    top: 975px;
   }
 }
 
@@ -333,9 +369,14 @@ table.smallSiteTable tbody td {
     padding: 4px 15px;
   }
 
+  .in-depth-desc {
+    position: absolute;
+    top: 755px;
+  }
+
   .footer-color {
     position: absolute;
-    top: 800px;
+    top: 955px;
   }
 }
 
@@ -375,9 +416,14 @@ table.smallSiteTable tbody td {
     padding: 5px 18px;
   }
 
+  .in-depth-desc {
+    position: absolute;
+    top: 770px;
+  }
+
   .footer-color {
     position: absolute;
-    top: 815px;
+    top: 970px;
   }
 }
 
@@ -392,9 +438,14 @@ table.smallSiteTable tbody td {
     padding: 4px 16px;
   }
 
+  .in-depth-desc {
+    position: absolute;
+    top: 755px;
+  }
+
   .footer-color {
     position: absolute;
-    top: 800px;
+    top: 955px;
   }
 }
 
@@ -416,9 +467,14 @@ table.smallSiteTable tbody td {
     padding: 8.15px 10px;
   }
 
+  .in-depth-desc {
+    position: absolute;
+    top: 815px;
+  }
+
   .footer-color {
     position: absolute;
-    top: 855px;
+    top: 1015px;
   }
 }
 
@@ -432,9 +488,14 @@ table.smallSiteTable tbody td {
     width: 275px;
   }
 
+  .in-depth-desc {
+    position: absolute;
+    top: 815px;
+  }
+
   .footer-color {
     position: absolute;
-    top: 850px;
+    top: 1015px;
   }
 }
 
@@ -497,9 +558,14 @@ table.smallSiteTable tbody td {
     padding: 4px 6px;
   }
 
+  .in-depth-desc {
+    position: absolute;
+    top: 720px;
+  }
+
   .footer-color {
     position: absolute;
-    top: 760px;
+    top: 920px
   }
 }
 
@@ -545,6 +611,19 @@ table.smallSiteTable tbody td {
     top: 125px;
     font-size: 16px;
   }
+
+  .in-depth-desc {
+    height: 175px;
+  }
+
+  .desc-title {
+    font-size: 25px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 945px;
+  }
 }
 
 /* For screens of 330px or less */
@@ -556,6 +635,16 @@ table.smallSiteTable tbody td {
 
   table.smallSiteTable td, table.smallSiteTable th {
     padding: 5.3px 2px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 735px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 960px;
   }
 }
 
