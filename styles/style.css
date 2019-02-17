@@ -212,8 +212,16 @@ input[type="checkbox"]:checked ~ .content {
   color: #ffffff;
 }
 
+.copyright a {
+  color: #ffffff;
+}
+
+.copyright a:hover {
+  color: #8998cb;
+}
+
 /* Common static */
-#assault-rifle, #suppressed-submachine-gun, #submachine-gun, #tactical-shotgun, #pistol {
+#assault-rifle, #infantry-rifle, #suppressed-submachine-gun, #submachine-gun, #tactical-shotgun, #pistol {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
@@ -241,7 +249,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
-#scoped-assault-rifle:hover, #suppressed-submachine-gun:hover, #submachine-gun:hover, #tactical-shotgun:hover, #hunting-rifle:hover {
+#scoped-assault-rifle:hover, #infantry-rifle:hover, #suppressed-submachine-gun:hover, #submachine-gun:hover, #tactical-shotgun:hover, #hunting-rifle:hover {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */

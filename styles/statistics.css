@@ -5,6 +5,14 @@
   scroll-behavior: smooth;
 }
 
+a {
+  color: #b6bbc9;
+}
+
+a:hover {
+  color: #8998cb;
+}
+
 @font-face {
   font-family: 'Burbank';
   src: url('fonts/BurbankBigCondensed-Bold.otf');
@@ -216,6 +224,55 @@ table.smallSiteTable tbody td {
   color: #ffffff;
 }
 
+/*
+=============================
+  About
+=============================
+*/
+
+.background-about {
+  position: relative;
+  top: 70px;
+  width: 60%;
+  height: 795px;
+  margin: 0 auto;
+  background-color: #324a77;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+  box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+}
+
+.title-about {
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  border-bottom: solid #f7ca18 1px;
+}
+
+.aboutp1 {
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #ffffff;
+  border-bottom: solid #f7ca18 1px;
+}
+
+.aboutp2 {
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #ffffff;
+  border-bottom: solid #f7ca18 1px;
+}
+
+
 /* For screens of 1245px or less */
 @media only screen and (max-width: 1245px) {
   table.bigSiteTable {
@@ -277,6 +334,10 @@ table.smallSiteTable tbody td {
   .footer-color {
     position: absolute;
     top: 900px;
+  }
+
+  .background-about {
+    height: 830px;
   }
 }
 
@@ -357,6 +418,10 @@ table.smallSiteTable tbody td {
     position: absolute;
     top: 1050px;
   }
+
+  .background-about {
+    height: 980px;
+  }
 }
 
 /* For screens of 645px or less */
@@ -427,6 +492,17 @@ table.smallSiteTable tbody td {
     position: absolute;
     top: 1065px;
   }
+
+  .background-about {
+    height: 995px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .background-about {
+    width: 100%;
+    border: solid 0px;
+  }
 }
 
 /* For screens of 500px or less */
@@ -478,6 +554,10 @@ table.smallSiteTable tbody td {
   .footer-color {
     position: absolute;
     top: 1135px;
+  }
+
+  .background-about {
+    height: 1065px;
   }
 }
 
@@ -649,6 +729,14 @@ table.smallSiteTable tbody td {
   .footer-color {
     position: absolute;
     top: 1135px;
+  }
+
+  .aboutp1 {
+    font-size: 18px;
+  }
+
+  .aboutp2 {
+    font-size: 18px;
   }
 }
 
