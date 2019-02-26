@@ -5,14 +5,6 @@
   scroll-behavior: smooth;
 }
 
-a {
-  color: #b6bbc9;
-}
-
-a:hover {
-  color: #8998cb;
-}
-
 @font-face {
   font-family: 'Burbank';
   src: url('fonts/BurbankBigCondensed-Bold.otf');
@@ -32,6 +24,14 @@ body:before {
   -moz-background-size: cover;
   -o-background-size: cover;
   z-index: -10;
+}
+
+a {
+  color: #b6bbc9;
+}
+
+a:hover {
+  color: #8998cb;
 }
 
 .header {
@@ -190,7 +190,7 @@ table.smallSiteTable tbody td {
 .desc-title {
   box-sizing: border-box;
   padding-left: 5px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
   color: #ffffff;
   border-bottom: solid #ffffff 1px;
 }
@@ -200,7 +200,7 @@ table.smallSiteTable tbody td {
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 8px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
   color: #f7ca18;
 }
 
