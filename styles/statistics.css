@@ -224,6 +224,14 @@ table.smallSiteTable tbody td {
   color: #ffffff;
 }
 
+.copyright a {
+  color: #ffffff;
+}
+
+.copyright a:hover {
+  color: #8998cb;
+}
+
 /*
 =============================
   About

@@ -72,11 +72,11 @@ body:before {
   color: #ffffff;
   text-decoration: none;
   text-align: center;
-  transition: .15s ease-in;
+  transition: .12s ease-in;
 }
 
 .menu a:hover {
-  background-color: #324a77;
+  color: #8998cb;
 }
 
 #other {
@@ -129,6 +129,7 @@ body:before {
 }
 
 .gun-image:hover {
+  transform: scale(1.050, 1.050);
   transition: .3s ease-in;
   -webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
