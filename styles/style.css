@@ -118,6 +118,7 @@ body:before {
 
 .gun-image {
   display: inline-block;
+  transition: .2s ease-in;
   width: 90px;
   height: 90px;
   margin-bottom: 8px;
