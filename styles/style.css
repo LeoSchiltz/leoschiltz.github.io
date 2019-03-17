@@ -66,7 +66,7 @@ body:before {
   clear: right;
   line-height: 70px;
   padding: 25.4px 8px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
   font-size: 18px;
   background-color: #223861;
   color: #ffffff;
@@ -98,7 +98,7 @@ body:before {
 }
 
 .gun-title {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
   font-size: 40px;
   color: #ffffff;
   text-align: center;
@@ -142,7 +142,7 @@ body:before {
   width: 100px;
   margin-top: 75px;
   margin-left: -95px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
 }
@@ -153,7 +153,7 @@ body:before {
   line-height: 12px;
   margin-top: 71px;
   margin-left: -95px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
 }
@@ -164,7 +164,7 @@ body:before {
   line-height: 12px;
   margin-top: 59px;
   margin-left: -95px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
 }
@@ -177,10 +177,10 @@ body:before {
 .content {
   position: absolute;
   top: -6px;
+  transition: max-height .2s ease-in-out;
   height: 187px;
   max-height: 0px;
   background-color: #324a77;
-  transition: max-height .2s ease-in-out;
   overflow: hidden;
   z-index: 1;
   border-top: solid #324a77 6px;
@@ -190,7 +190,7 @@ body:before {
   width: 75%;
   padding-top: 5px;
   padding-left: 12px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
   font-size: 25px;
   color: #ffffff;
   word-spacing: 2px;
@@ -211,8 +211,8 @@ body:before {
 }
 
 .click:hover {
-  background-color: #324a77;
   transition: .3s ease-in;
+  background-color: #324a77;
 }
 
 #check, #check-2, #check-3, #check-4, #check-5, #check-6, #check-7 {
@@ -221,9 +221,9 @@ body:before {
 
 input[type="checkbox"]:checked ~ .content {
   max-height: 187px;
+  z-index: 2;
   border-top: solid #ffffff 6px;
   border-bottom: solid #ffffff 6px;
-  z-index: 2;
 }
 
 .footer-color {
@@ -255,15 +255,15 @@ input[type="checkbox"]:checked ~ .content {
 }
 
 /* Common static */
-#assault-rifle, #infantry-rifle, #suppressed-submachine-gun, #submachine-gun, #tactical-shotgun, #pistol {
+#assault-rifle, #heavy-assault-rifle, #suppressed-submachine-gun, #submachine-gun, #tactical-shotgun, #pistol {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
-#scoped-assault-rifle, #pump-shotgun, #hunting-rifle {
+#scoped-assault-rifle, #infantry-rifle, #pump-shotgun, #hunting-rifle {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare static */
-#heavy-assault-rifle, #bolt-action-sniper-rifle, #suppressed-pistol, #dual-pistol, #grenade-launcher {
+#bolt-action-sniper-rifle, #suppressed-pistol, #dual-pistol, #grenade-launcher {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic static */
@@ -283,7 +283,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
-#scoped-assault-rifle:hover, #infantry-rifle:hover, #suppressed-submachine-gun:hover, #submachine-gun:hover, #tactical-shotgun:hover, #hunting-rifle:hover {
+#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #infantry-rifle:hover, #suppressed-submachine-gun:hover, #submachine-gun:hover, #tactical-shotgun:hover, #hunting-rifle:hover {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */
@@ -291,7 +291,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #heavy-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #minigun:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #minigun:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
@@ -446,7 +446,7 @@ input[type="checkbox"]:checked ~ .content {
 /* For screns of 385px or less */
 @media only screen and (max-width: 385px) {
   .header {
-    font-size: 27px;
+    font-size: 26px;
     padding-left: 8px;
   }
 
@@ -457,17 +457,6 @@ input[type="checkbox"]:checked ~ .content {
 
 /* For screens of 360px or less */
 @media only screen and (max-width: 360px) {
-  .header {
-    width: 230px;
-    padding-left: 5px;
-    font-size: 28px;
-    word-spacing: -1px;
-  }
-
-  .heading {
-    width: 218px;
-  }
-
   #submachine-gun-nav {
     margin-top: 80px;
   }
@@ -506,6 +495,7 @@ input[type="checkbox"]:checked ~ .content {
   }
 }
 
+/* For screens of 325px or less */
 @media only screen and (max-width: 325px) {
   .icon {
     width: 15px;
@@ -513,6 +503,7 @@ input[type="checkbox"]:checked ~ .content {
   }
 }
 
+/* For screens of 319px or less */
 @media only screen and (max-width: 319px) {
   .gun-image {
     width: 65px;
