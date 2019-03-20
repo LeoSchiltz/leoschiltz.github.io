@@ -255,7 +255,7 @@ input[type="checkbox"]:checked ~ .content {
 }
 
 /* Common static */
-#assault-rifle, #heavy-assault-rifle, #suppressed-submachine-gun, #submachine-gun, #tactical-shotgun, #pistol {
+#assault-rifle, #heavy-assault-rifle, #suppressed-submachine-gun, #submachine-gun, #tactical-shotgun, #pistol, #flint-knock-pistol {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
@@ -279,7 +279,7 @@ input[type="checkbox"]:checked ~ .content {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon hover */
-#pistol:hover {
+#pistol:hover, #flint-knock-pistol:hover {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
