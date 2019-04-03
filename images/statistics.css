@@ -1,0 +1,774 @@
+* {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  user-select: none;
+  -moz-user-select: none
+}
+
+@font-face {
+  font-family: 'Burbank';
+  src: url('fonts/BurbankBigCondensed-Bold.otf');
+}
+
+body:before {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url(../images/fortnitebkg.png) no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: -10;
+}
+
+a {
+  color: #b6bbc9;
+}
+
+a:hover {
+  color: #8998cb;
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 15px;
+  font-family: 'Burbank', 'Alegreya Sans SC', sans-serif;
+  font-size: 40px;
+  background-color: #223861;
+  color: #ffffff;
+  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  z-index: 2;
+}
+
+.heading {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 327px;
+  height: 70px;
+  padding-left: 15px;
+  z-index: 3;
+}
+
+.weapon {
+  position: absolute;
+  top: 125px;
+  height: 156px;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  background-color: #223861;
+  color: #ffffff;
+  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  border-top: solid #ffffff;
+  border-bottom: solid #ffffff;
+}
+
+.weapon-image {
+  width: 140px;
+  height: 148px;
+  padding: 5px;
+  border-left: solid #ffffff;
+  border-right: solid #ffffff;
+}
+
+.weapon-name {
+  position: absolute;
+  top: 3px;
+  left: 165px;
+  width: 328px;
+  line-height: 45px;
+  font-size: 55px;
+}
+
+.weapon-specifics {
+  position: absolute;
+  top: 45px;
+  left: 165px;
+  width: 320px;
+  line-height: 22px;
+  font-size: 20px;
+  color: #f7ca18;
+}
+
+.desc-name {
+  position: absolute;
+  top: 5px;
+  left: 500px;
+  width: 180px;
+  padding-left: 10px;
+  border-left: solid 1px #ffffff;
+}
+
+.desc-specifics {
+  position: absolute;
+  bottom: 5px;
+  left: 500px;
+  width: 54.9%;
+  height: 110px;
+  line-height: 18px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #f7ca18;
+  border-left: solid #ffffff 1px;
+}
+
+.table-position {
+  position: absolute;
+  top: 315px;
+  height: 300px;
+}
+
+table.bigSiteTable {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  width: 700px;
+  height: 300px;
+  font-family: 'Burbank', 'Alegreya Sans SC', sans-serif;
+  background-color: #223861;
+  color: #ffffff;
+  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  text-align: center;
+}
+
+table.bigSiteTable td, table.bigSiteTable th {
+  padding: 2px 10px;
+  border: solid 3px #ffffff;
+}
+
+table.bigSiteTable tbody td {
+  font-size: 20px;
+}
+
+table.smallSiteTable {
+  position: absolute;
+  left: 0px;
+  display: none;
+  width: 100%;
+  height: 351px;
+  font-family: 'Burbank', 'Alegreya Sans SC', sans-serif;
+  background-color: #223861;
+  color: #ffffff;
+  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  text-align: center;
+}
+
+table.smallSiteTable td, table.smallSiteTable th {
+  padding: 5.5px 30px;
+  border: solid 3px #ffffff;
+}
+
+table.smallSiteTable tbody td {
+  font-size: 15px;
+}
+
+.in-depth-desc {
+  position: absolute;
+  top: 650px;
+  height: 165px;
+  background-color: #223861;
+  border-top: solid #ffffff;
+  border-bottom: solid #ffffff;
+}
+
+.desc-title {
+  box-sizing: border-box;
+  padding-left: 5px;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  color: #ffffff;
+  border-bottom: solid #ffffff 1px;
+}
+
+.desc-paragraph {
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 8px;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  color: #f7ca18;
+}
+
+.footer-color {
+  position: absolute;
+  top: 865px;
+  height: 100px;
+  background-color: #223861;
+  box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+}
+
+.copyright {
+  width: 96.7%;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.copyright a {
+  color: #ffffff;
+}
+
+.copyright a:hover {
+  color: #8998cb;
+}
+
+/*
+=============================
+  About
+=============================
+*/
+
+.background-about {
+  position: relative;
+  top: 70px;
+  width: 60%;
+  height: 795px;
+  margin: 0 auto;
+  background-color: #324a77;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+  box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+}
+
+.title-about {
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 10px;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  border-bottom: solid #f7ca18 1px;
+}
+
+.aboutp1 {
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  color: #ffffff;
+  border-bottom: solid #f7ca18 1px;
+}
+
+.aboutp2 {
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  color: #ffffff;
+  border-bottom: solid #f7ca18 1px;
+}
+
+
+/* For screens of 1245px or less */
+@media only screen and (max-width: 1245px) {
+  table.bigSiteTable {
+    position: absolute;
+    left: 100px;
+  }
+}
+
+/* For screens of 1160px or less */
+@media only screen and (max-width: 1160px) {
+  .desc-specifics {
+    width: 45%;
+    font-size: 18px;
+  }
+
+  table.bigSiteTable {
+    position: absolute;
+    left: 50px;
+  }
+}
+
+/* For screens of 1070px or less */
+@media only screen and (max-width: 1070px) {
+  table.bigSiteTable {
+    position: absolute;
+    left: 15px;
+  }
+}
+
+/* For screens of 990px or less */
+@media only screen and (max-width: 990px) {
+  table.bigSiteTable {
+    width: 500px;
+  }
+}
+
+/* For screens of 970px or less */
+@media only screen and (max-width: 970px) {
+  .desc-specifics {
+    width: 30%;
+  }
+}
+
+/* For screens of 925px or less */
+@media only screen and (max-width: 925px) {
+  table.bigSiteTable {
+    display: none;
+  }
+
+  table.smallSiteTable {
+    display: block;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 700px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 900px;
+  }
+
+  .background-about {
+    height: 830px;
+  }
+}
+
+/* For screens of 810px or less */
+@media only screen and (max-width: 810px) {
+  .desc-specifics {
+    width: 30%;
+  }
+}
+
+/* For screens of 755px or less */
+@media only screen and (max-width: 755px) {
+  .weapon {
+    height: 230px;
+  }
+
+  .weapon-image {
+    width: 100px;
+    height: 105px;
+  }
+
+  .weapon-name {
+    position: absolute;
+    left: 125px;
+    width: 320px;
+    font-size: 45px;
+  }
+
+  .weapon-specifics {
+    position: absolute;
+    top: 45px;
+    left: 116px;
+    height: 70px;
+    line-height: 18px;
+    padding-left: 9px;
+    font-size: 18px;
+  }
+
+  .border {
+    position: absolute;
+    top: 115px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+
+  .desc-name {
+    position: absolute;
+    top: 125px;
+    left: 10px;
+    width: 180px;
+    padding: 0px;
+    border-left: 0px;
+  }
+
+  .desc-specifics {
+    position: absolute;
+    top: 158px;
+    left: 10px;
+    width: 90%;
+    line-height: 18px;
+    padding-left: 0px;
+    font-size: 18px;
+    border-left: 0px;
+  }
+
+  .table-position {
+    position: absolute;
+    top: 390px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 775px;
+    height: 225px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1050px;
+  }
+
+  .background-about {
+    height: 980px;
+  }
+}
+
+/* For screens of 645px or less */
+@media only screen and (max-width: 645px) {
+  table.smallSiteTable {
+    width: 100%;
+    height: 330px;
+  }
+
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 4px 15px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 755px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1030px;
+  }
+}
+
+/* For screens of 625px or less */
+@media only screen and (max-width: 625px) {
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 4px 20px;
+  }
+}
+
+/* For screens of 580px or less */
+@media only screen and (max-width: 580px) {
+  .weapon-name {
+    width: 275px;
+  }
+
+  .weapon-specifics {
+    width: 220px;
+  }
+}
+
+/* For screens of 560px or less */
+@media only screen and (max-width: 560px) {
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 4px 20px;
+  }
+}
+
+/* For screens of 535px or less */
+@media only screen and (max-width: 535px) {
+  table.smallSiteTable {
+    width: 100%;
+    height: 344px;
+  }
+
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 5px 18px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 770px;
+    height: 250px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1065px;
+  }
+
+  .background-about {
+    height: 995px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .background-about {
+    width: 100%;
+    border: solid 0px;
+  }
+}
+
+/* For screens of 500px or less */
+@media only screen and (max-width: 500px) {
+  table.smallSiteTable {
+    width: 100%;
+    height: 330px;
+  }
+
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 4px 16px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 755px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1050px;
+  }
+}
+
+/* For screens of 475px or less */
+@media only screen and (max-width: 475px) {
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 4px 14px;
+  }
+}
+
+/* For screens of 450px or less */
+@media only screen and (max-width: 450px) {
+  table.smallSiteTable {
+    width: 100%;
+    height: 388px;
+  }
+
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 8.15px 10px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 815px;
+    height: 275px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1135px;
+  }
+
+  .background-about {
+    height: 1065px;
+  }
+}
+
+/* For screens of 440px or less */
+@media only screen and (max-width: 440px) {
+  .header {
+    font-size: 34px;
+  }
+
+  .heading {
+    width: 275px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 815px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1135px;
+  }
+}
+
+/* For screens of 420px or less */
+@media only screen and (max-width: 420px) {
+  .weapon {
+    height: 190px;
+  }
+
+  .weapon-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .weapon-name {
+    position: absolute;
+    left: 104px;
+    width: 220px;
+    font-size: 35px;
+  }
+
+  .weapon-specifics {
+    position: absolute;
+    top: 38px;
+    left: 98px;
+    line-height: 16px;
+    padding-left: 5px;
+    font-size: 17px;
+  }
+
+  .border {
+    position: absolute;
+    top: 90px;
+  }
+
+  .desc-name {
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+  }
+
+  .desc-specifics {
+    position: absolute;
+    top: 133px;
+    line-height: 16px;
+    font-size: 17px;
+  }
+
+  .table-position {
+    position: absolute;
+    top: 350px;
+  }
+
+  table.smallSiteTable {
+    width: 100%;
+    height: 330px;
+  }
+
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 4px 6px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 720px;
+    height: 325px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1095px;
+  }
+}
+
+/* For screns of 385px or less */
+@media only screen and (max-width: 385px) {
+  .header {
+    font-size: 27px;
+    padding-left: 8px;
+  }
+
+  .heading {
+    width: 213px;
+  }
+}
+
+/* For screens of 350px or less */
+@media only screen and (max-width: 350px) {
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 4px 2px;
+  }
+}
+
+/* For screens of 345px or less */
+@media only screen and (max-width: 345px) {
+  .weapon-name {
+    width: 190px;
+    font-size: 30px;
+  }
+
+  .weapon-specifics {
+    position: absolute;
+    top: 35px;
+    width: 195px;
+    font-size: 16px;
+  }
+
+  .desc-name {
+    font-size: 25px;
+  }
+
+  .desc-specifics {
+    position: absolute;
+    top: 125px;
+    font-size: 16px;
+  }
+
+  .in-depth-desc {
+    height: 355px;
+  }
+
+  .desc-title {
+    font-size: 25px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1115px;
+  }
+}
+
+/* For screens of 330px or less */
+@media only screen and (max-width: 330px) {
+  table.smallSiteTable {
+    width: 100%;
+    height: 348px;
+  }
+
+  table.smallSiteTable td, table.smallSiteTable th {
+    padding: 5.3px 2px;
+  }
+
+  .in-depth-desc {
+    position: absolute;
+    top: 735px;
+  }
+
+  .footer-color {
+    position: absolute;
+    top: 1135px;
+  }
+
+  .aboutp1 {
+    font-size: 18px;
+  }
+
+  .aboutp2 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  .header {
+    font-size: 26px;
+  }
+
+  .weapon-name {
+    position: absolute;
+    left: 100px;
+    width: 180px;
+  }
+
+  .weapon-specifics {
+    position: absolute;
+    left: 95px;
+    width: 181px;
+    font-size: 15px;
+  }
+
+  .border {
+    width: 99%;
+  }
+}
