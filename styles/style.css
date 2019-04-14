@@ -292,7 +292,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary static */
-#zapotron {
+#boom-bow, #zapotron {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 /* Common hover */
@@ -312,7 +312,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #zapotron:hover, #minigun:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover #zapotron:hover, #minigun:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
