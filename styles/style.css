@@ -3,8 +3,11 @@
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
-  user-select: none;
-  -moz-user-select: none;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans SC Black';
+  src: url('fonts/AlegreyaSansSC-Black.ttf');
 }
 
 @font-face {
@@ -36,10 +39,15 @@ body:before {
   height: 70px;
   line-height: 70px;
   padding-left: 15px;
-  font-family: 'Burbank', 'Alegreya Sans SC', sans-serif;
+  font-family: 'Burbank', 'Alegreya Sans SC', 'Alegreya Sans SC Black', sans-serif;
   font-size: 40px;
   color: #ffffff;
   z-index: 2;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .heading {
@@ -50,6 +58,11 @@ body:before {
   height: 67px;
   padding-left: 15px;
   z-index: 3;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .nav {
@@ -62,19 +75,29 @@ body:before {
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   text-align: right;
   z-index: 1;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .menu a {
   clear: right;
   line-height: 70px;
   padding: 25.4px 8px;
-  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   font-size: 18px;
   background-color: #223861;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
   transition: .12s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .menu a:hover {
@@ -93,6 +116,11 @@ body:before {
   line-height: 70px;
   font-size: 60px;
   color: #ffffff;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 #toggle {
@@ -100,7 +128,7 @@ body:before {
 }
 
 .gun-title {
-  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   font-size: 40px;
   color: #ffffff;
   text-align: center;
@@ -108,6 +136,11 @@ body:before {
 
 .gun-nav {
   text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .gun-nav il {
@@ -129,6 +162,11 @@ body:before {
   -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
   -moz-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
   border: #ffffff 4px solid;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .gun-image:hover {
@@ -139,14 +177,19 @@ body:before {
   box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
 }
 
+.gun-image img {
+  z-index: 10;
+}
+
 .gun-info-1-line {
   position: absolute;
   width: 100px;
   margin-top: 75px;
   margin-left: -95px;
-  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
+  visibility: visible;
 }
 
 .gun-info-2-line {
@@ -155,9 +198,10 @@ body:before {
   line-height: 12px;
   margin-top: 71px;
   margin-left: -95px;
-  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
+  visibility: visible;
 }
 
 .gun-info-3-line {
@@ -166,9 +210,10 @@ body:before {
   line-height: 12px;
   margin-top: 59px;
   margin-left: -95px;
-  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
+  visibility: visible;
 }
 
 #assault-rifle-nav, #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav, #explosive-nav, #other-nav, #vaulted-nav {
@@ -204,7 +249,7 @@ body:before {
   width: 75%;
   padding-top: 5px;
   padding-left: 12px;
-  font-family: 'Alegreya Sans SC', 'Burbank', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   font-size: 25px;
   color: #ffffff;
   word-spacing: 2px;
@@ -222,6 +267,11 @@ body:before {
   cursor: pointer;
   z-index: 3;
   border: solid #ffffff 2px;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .click:hover {
@@ -255,6 +305,7 @@ input[type="checkbox"]:checked ~ .large-content {
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+  z-index: 1;
 }
 
 .copyright {
@@ -265,10 +316,12 @@ input[type="checkbox"]:checked ~ .large-content {
   font-family: 'Roboto Slab', serif;
   font-size: 12px;
   color: #ffffff;
+  z-index: 1;
 }
 
 .copyright a {
   color: #ffffff;
+  z-index: 1;
 }
 
 .copyright a:hover {
@@ -304,7 +357,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
-#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #infantry-rifle:hover, #submachine-gun-old:hover, #suppressed-submachine-gun:hover, #submachine-gun-new:hover, #drum-gun:hover, #tactical-shotgun:hover, #semi-auto-sniper-rifle:hover, #hunting-rifle:hover, #revolver:hover {
+#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #submachine-gun-old:hover, #suppressed-submachine-gun:hover, #submachine-gun-new:hover, #drum-gun:hover, #tactical-shotgun:hover, #semi-auto-sniper-rifle:hover, #hunting-rifle:hover, #revolver:hover {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */
@@ -312,7 +365,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover #zapotron:hover, #minigun:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #infantry-rifle:hover, #compact-submachine-gun:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover #zapotron:hover, #minigun:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
@@ -348,8 +401,8 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .menu a {
     display: block;
-    height: 10vh;
-    line-height: 10vh;
+    height: 8vh;
+    line-height: 8vh;
     margin: 0px;
     padding: 0px 0px;
     border-bottom: 1px solid #eaeaeb;
@@ -360,7 +413,7 @@ input[type="checkbox"]:checked ~ .large-content {
   }
 
   #toggle:checked + .menu {
-    max-height: 1000px;
+    max-height: 800px;
     opacity: 1;
   }
 
