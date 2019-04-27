@@ -28,7 +28,6 @@ body:before {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  z-index: -10;
 }
 
 a {
@@ -55,32 +54,26 @@ a:hover {
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   z-index: 2;
   user-select: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -webkit-user-select: none;
 }
 
 .heading {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 327px;
+  width: 326px;
   height: 70px;
   padding-left: 15px;
   z-index: 3;
-  user-select: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+
 }
 
 .weapon {
   position: absolute;
   top: 125px;
   height: 156px;
-  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   background-color: #223861;
   color: #ffffff;
   box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
@@ -97,10 +90,9 @@ a:hover {
   border-left: solid #ffffff;
   border-right: solid #ffffff;
   user-select: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -webkit-user-select: none;
 }
 
 .weapon-name {
@@ -119,6 +111,7 @@ a:hover {
   left: 165px;
   width: 320px;
   line-height: 22px;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   font-size: 20px;
   color: #f7ca18;
 }
@@ -129,6 +122,7 @@ a:hover {
   left: 500px;
   width: 180px;
   padding-left: 10px;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   border-left: solid 1px #ffffff;
 }
 
@@ -140,6 +134,7 @@ a:hover {
   height: 110px;
   line-height: 18px;
   padding-left: 10px;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   font-size: 20px;
   color: #f7ca18;
   border-left: solid #ffffff 1px;
@@ -165,10 +160,9 @@ table.bigSiteTable {
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   text-align: center;
   user-select: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -webkit-user-select: none;
 }
 
 table.bigSiteTable td, table.bigSiteTable th {
@@ -194,10 +188,9 @@ table.smallSiteTable {
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   text-align: center;
   user-select: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -webkit-user-select: none;
 }
 
 table.smallSiteTable td, table.smallSiteTable th {
@@ -310,7 +303,6 @@ table.smallSiteTable tbody td {
   color: #ffffff;
   border-bottom: solid #f7ca18 1px;
 }
-
 
 /* For screens of 1245px or less */
 @media only screen and (max-width: 1245px) {
@@ -537,6 +529,7 @@ table.smallSiteTable tbody td {
   }
 }
 
+/* For screens of 675px or less */
 @media only screen and (max-width: 675px) {
   .background-about {
     width: 100%;
@@ -607,7 +600,7 @@ table.smallSiteTable tbody td {
   }
 
   .heading {
-    width: 275px;
+    width: 278px;
   }
 
   .in-depth-desc {
@@ -692,15 +685,15 @@ table.smallSiteTable tbody td {
   }
 }
 
-/* For screns of 385px or less */
-@media only screen and (max-width: 385px) {
+/* For screns of 380px or less */
+@media only screen and (max-width: 380px) {
   .header {
-    font-size: 27px;
-    padding-left: 8px;
+    font-size: 30px;
+    padding-left: 5px;
   }
 
   .heading {
-    width: 213px;
+    width: 235px;
   }
 }
 
@@ -749,6 +742,17 @@ table.smallSiteTable tbody td {
   }
 }
 
+/* For screens of 340px or less */
+@media only screen and (max-width: 340px) {
+  .header {
+    font-size: 27px;
+  }
+
+  .heading {
+    width: 210px;
+  }
+}
+
 /* For screens of 330px or less */
 @media only screen and (max-width: 330px) {
   table.smallSiteTable {
@@ -779,11 +783,8 @@ table.smallSiteTable tbody td {
   }
 }
 
+/* For screens of 319px or less */
 @media only screen and (max-width: 319px) {
-  .header {
-    font-size: 26px;
-  }
-
   .weapon-name {
     position: absolute;
     left: 100px;

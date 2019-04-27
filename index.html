@@ -32,12 +32,16 @@
   </head>
   <body>
 <!-- Website header -->
-  <h1 class="header" style="z-index:1000;">FORTNITE GUN STATISTICS</h1>
-  <a class="heading" style="z-index:1000;" href="index.html"></a>
+  <h1 class="header" style="position:fixed;z-index:1000;">FORTNITE GUN STATISTICS</h1>
+  <a class="heading" style="position:fixed;z-index:1000;" href="index.html"></a>
 
 <!-- Navigation menu -->
-  <label class="nav" for="toggle" style="z-index:999;">
-    <div class="icon">&#8801;</div>
+  <label class="nav" for="toggle" style="position:fixed;z-index:999;">
+    <div class="icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     <input type="checkbox" id="toggle"/>
     <div class="menu">
       <a href="#assault-rifle-nav">Assault Rifles</a>
@@ -68,7 +72,7 @@
     <ul class="gun-responsive">
       <il><a href="suppressed-assault-rifle.html" class="gun-image" id="suppressed-assault-rifle"><img src="images/suppressed-assault-rifle.png" alt="Suppressed Assault Rifle"/><span class="gun-info-3-line">Suppressed<br>Assault</br>Rifle</span></a></il>
       <il><a href="heavy-assault-rifle.html" class="gun-image" id="heavy-assault-rifle"><img src="images/heavy-assault-rifle.png" alt="Heavy Assault Rifle"/><span class="gun-info-3-line">Heavy<br>Assault</br>Rifle</span></a></il>
-      <il><a href="infantry-rifle.html" class="gun-image" id="infantry-rifle"><img src="images/infantry-rifle.png" onmouseover="this.src='images/infantry-rifle2.png';" onmouseout="this.src='images/infantry-rifle.png';" alt="Infantry Rifle"/><span class="gun-info-3-line">Infantry<br>Rifle</br><span style="color:#ffff22;">NEW<span style="font-family:'Burbank' 'Alegreya Sans SC', 'Alegreya Sans SC Black';">!</span></span></span></a></il>
+      <il><a href="infantry-rifle.html" class="gun-image" id="infantry-rifle"><img src="images/infantry-rifle.png" onmouseover="this.src='images/infantry-rifle2.png';" onmouseout="this.src='images/infantry-rifle.png';" alt="Infantry Rifle"/><span class="gun-info-3-line">Infantry<br>Rifle</br><span style="color:#ffff22;">NEW<span>!</span></span></span></a></il>
     </ul>
   </div>
 </div>
@@ -156,7 +160,7 @@
     <ul>
       <il><a href="rocket-launcher.html" class="gun-image" id="rocket-launcher"><img src="images/rocket-launcher.png" alt="Rocket Launcher"/><span class="gun-info-2-line">Rocket Launcher</span></a></il>
       <il><a href="grenade-launcher.html" class="gun-image" id="grenade-launcher"><img src="images/grenade-launcher.png" alt="Grenade Launcher"/><span class="gun-info-2-line">Grenade Launcher</span></a></il>
-      <il><a href="boom-bow.html" class="gun-image" id="boom-bow"><img src="images/boom-bow.png" alt="Boom Bow"/><span class="gun-info-1-line">Boom Bow</span></br></a></il>
+      <il><a href="boom-bow.html" class="gun-image" id="boom-bow"><img src="images/boom-bow.png" alt="Boom Bow"/><span class="gun-info-1-line">Boom Bow</span></a></il>
     </ul>
   </div>
 </div>
@@ -166,7 +170,7 @@
   <label class="click" for="check-7">Description</label>
   <input type="checkbox" id="check-7">
   <div class="content">
-    <p class="text">Other weapons in Fortnite such as the Minigun are found in this section. If weapons do not fit into any of the categories, they are placed into this one.</p>
+    <p class="text">Other guns in Fortnite such as the Minigun are found in this section. If guns do not fit into any of the categories, they are placed into this one.</p>
   </div>
     <h1 class="gun-title" style="position:relative;top:10px;">Other</h1>
   <div class="gun-nav" style="position:relative;top:15px;">
@@ -181,7 +185,7 @@
   <label class="click" for="check-8">Description</label>
   <input type="checkbox" id="check-8">
   <div class="large-content">
-    <p class="text">All vaulted weapons in Fortnite are found in this section. All weapons that are currently in the vault are placed into this category. The weapons are organized from the first weapon that was vaulted to the most recent weapon that was vaulted.</p>
+    <p class="text">All vaulted guns in Fortnite are found in this section. All weapons that are currently in the vault are placed into this category. The weapons are organized from the first weapon that was vaulted to the most recent weapon that was vaulted.</p>
   </div>
     <h1 class="gun-title" style="position:relative;top:10px;">Vaulted</h1>
   <div class="gun-nav" style="position:relative;top:15px;">
@@ -231,7 +235,7 @@
     </div>
   </div>
 
-<!-- Javascript for hamburger menu -->
+<!-- Javascript for navigation menu -->
         <script>
         var links = document.querySelectorAll('.menu a');
     var linksLength = links.length
@@ -241,6 +245,21 @@
         document.getElementById('toggle').checked = false;
       });
     }
+      $(document).ready(function(){
+        $('.menu a').click(function() {
+      $('.icon').removeClass('open');
+        });
+	       $('.icon').click(function(){
+		         $(this).toggleClass('open');
+	          });
+          });
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top -70
+      }, 500);
+    });
         </script>
   </body>
 </html>
