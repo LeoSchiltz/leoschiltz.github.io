@@ -28,6 +28,7 @@ body:before {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  z-index: -1;
 }
 
 a {
@@ -229,8 +230,6 @@ table.smallSiteTable tbody td {
 }
 
 .footer-color {
-  position: absolute;
-  top: 865px;
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -265,10 +264,10 @@ table.smallSiteTable tbody td {
 .background-about {
   position: relative;
   top: 70px;
-  width: 60%;
+  width: 90%;
   height: 795px;
   margin: 0 auto;
-  background-color: #324a77;
+  background-color: rgba(34, 56, 97, 0.6);
   -webkit-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
   -moz-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
   box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
@@ -302,6 +301,34 @@ table.smallSiteTable tbody td {
   font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   color: #ffffff;
   border-bottom: solid #f7ca18 1px;
+}
+
+/*
+=============================
+  404
+=============================
+*/
+
+.not-found {
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
+  color: #ffffff;
+}
+
+.unknown {
+  position: absolute;
+  top: 150px;
+  left: 10%;
+  width: 60%;
+  font-size: 150px;
+  background-color: rgba(34, 56, 97, 0.3);
+  border-bottom: solid;
+}
+
+.missing {
+  position: absolute;
+  top: 340px;
+  left: 10%;
+  width: 80%;
 }
 
 /* For screens of 1245px or less */
@@ -492,6 +519,18 @@ table.smallSiteTable tbody td {
 
   .weapon-specifics {
     width: 220px;
+  }
+
+  .unknown {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+  }
+
+  .missing {
+    position: absolute;
+    left: 0%;
+    width: 100%;
   }
 }
 
