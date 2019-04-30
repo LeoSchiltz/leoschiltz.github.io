@@ -230,6 +230,8 @@ table.smallSiteTable tbody td {
 }
 
 .footer-color {
+  position: absolute;
+  top: 865px;
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
