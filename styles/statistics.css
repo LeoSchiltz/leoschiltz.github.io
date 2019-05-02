@@ -71,7 +71,7 @@ a:hover {
 
 }
 
-.weapon {
+.item {
   position: absolute;
   top: 125px;
   height: 156px;
@@ -84,7 +84,7 @@ a:hover {
   border-bottom: solid #ffffff;
 }
 
-.weapon-image {
+.item-image {
   width: 140px;
   height: 148px;
   padding: 5px;
@@ -96,7 +96,7 @@ a:hover {
   -webkit-user-select: none;
 }
 
-.weapon-name {
+.item-name {
   position: absolute;
   top: 3px;
   left: 165px;
@@ -106,7 +106,7 @@ a:hover {
   font-size: 55px;
 }
 
-.weapon-specifics {
+.item-specifics {
   position: absolute;
   top: 45px;
   left: 165px;
@@ -410,23 +410,23 @@ table.smallSiteTable tbody td {
 
 /* For screens of 755px or less */
 @media only screen and (max-width: 755px) {
-  .weapon {
+  .item {
     height: 230px;
   }
 
-  .weapon-image {
+  .item-image {
     width: 100px;
     height: 105px;
   }
 
-  .weapon-name {
+  .item-name {
     position: absolute;
     left: 125px;
     width: 320px;
     font-size: 45px;
   }
 
-  .weapon-specifics {
+  .item-specifics {
     position: absolute;
     top: 45px;
     left: 116px;
@@ -515,11 +515,11 @@ table.smallSiteTable tbody td {
 
 /* For screens of 580px or less */
 @media only screen and (max-width: 580px) {
-  .weapon-name {
+  .item-name {
     width: 275px;
   }
 
-  .weapon-specifics {
+  .item-specifics {
     width: 220px;
   }
 
@@ -657,23 +657,23 @@ table.smallSiteTable tbody td {
 
 /* For screens of 420px or less */
 @media only screen and (max-width: 420px) {
-  .weapon {
+  .item {
     height: 190px;
   }
 
-  .weapon-image {
+  .item-image {
     width: 80px;
     height: 80px;
   }
 
-  .weapon-name {
+  .item-name {
     position: absolute;
     left: 104px;
     width: 220px;
     font-size: 35px;
   }
 
-  .weapon-specifics {
+  .item-specifics {
     position: absolute;
     top: 38px;
     left: 98px;
@@ -747,12 +747,12 @@ table.smallSiteTable tbody td {
 
 /* For screens of 345px or less */
 @media only screen and (max-width: 345px) {
-  .weapon-name {
+  .item-name {
     width: 190px;
     font-size: 30px;
   }
 
-  .weapon-specifics {
+  .item-specifics {
     position: absolute;
     top: 35px;
     width: 195px;
@@ -826,13 +826,13 @@ table.smallSiteTable tbody td {
 
 /* For screens of 319px or less */
 @media only screen and (max-width: 319px) {
-  .weapon-name {
+  .item-name {
     position: absolute;
     left: 100px;
     width: 180px;
   }
 
-  .weapon-specifics {
+  .item-specifics {
     position: absolute;
     left: 95px;
     width: 181px;
