@@ -15,11 +15,10 @@
   src: url('fonts/BurbankBigCondensed-Bold.otf');
 }
 
-body {
+body:before {
   position: fixed;
   top: 0px;
   left: 0px;
-  bottom: 0px;
   display: block;
   content: "";
   width: 100%;
@@ -29,6 +28,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  z-index: -1;
 }
 
 a {
