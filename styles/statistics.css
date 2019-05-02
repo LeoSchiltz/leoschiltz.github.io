@@ -15,20 +15,22 @@
   src: url('fonts/BurbankBigCondensed-Bold.otf');
 }
 
-body:before {
+body {
   position: fixed;
-  top: 0px;
+  top: 70px;
   left: 0px;
+  bottom: 0px;
   display: block;
   content: "";
   width: 100%;
   height: 100%;
+  border: solid;
   background: url(../images/fortnitebkg.png) no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  z-index: -1;
+  overflow: hidden;
 }
 
 a {
