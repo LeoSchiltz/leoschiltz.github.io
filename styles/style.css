@@ -251,9 +251,15 @@ body:before {
   color: #ffffff;
 }
 
-#assault-item-nav, #submachine-item-nav, #item-nav, #item-item-nav, #pistol-nav, #explosive-nav, #other-nav, #vaulted-nav {
+#assault-item-nav, #submachine-item-nav, #item-item-nav, #pistol-nav, #other-nav, #vaulted-nav {
   height: 187px;
   border-top: solid #0a2454 6px;
+}
+
+#item-nav, #explosive-nav {
+  height: 187px;
+  border-top: solid #0a2454 6px;
+  border-bottom: solid #0a2454 6px;
 }
 
 .content {
@@ -333,7 +339,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
 .footer-color {
   position: absolute;
-  top: 1919px;
+  top: 2575px;
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
