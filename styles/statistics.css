@@ -15,7 +15,32 @@
   src: url('fonts/BurbankBigCondensed-Bold.otf');
 }
 
+.horizontal-ad {
+  display: inline-block;
+  width: 728px;
+  height: 89px;
+}
 
+.square-ad {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+}
+
+#advertisement-top {
+  position: relative;
+  top: 79px;
+}
+
+#advertisement-right {
+  position: relative;
+  top: 203px;
+}
+
+#advertisement-bottom {
+  position: relative;
+  top: 587px;
+}
 
 body:before {
   position: fixed;

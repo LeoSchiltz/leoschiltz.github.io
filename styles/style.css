@@ -15,6 +15,33 @@
   src: url('fonts/AlegreyaSansSC-Black.ttf');
 }
 
+.horizontal-ad {
+  display: inline-block;
+  width: 728px;
+  height: 89px;
+}
+
+.square-ad {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+}
+
+#advertisement-top {
+  position: relative;
+  top: 79px;
+}
+
+#advertisement-middle {
+  position: relative;
+  top: 688px;
+}
+
+#advertisement-bottom {
+  position: relative;
+  top: 1318px;
+}
+
 body:before {
   position: fixed;
   top: 0px;
