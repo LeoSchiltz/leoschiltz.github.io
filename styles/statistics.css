@@ -34,7 +34,9 @@
 
 #advertisement-right {
   position: relative;
-  top: 203px;
+  top: 296px;
+  float: right;
+  margin-right: 95px;
 }
 
 #advertisement-bottom {
