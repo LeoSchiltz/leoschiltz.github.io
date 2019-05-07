@@ -30,19 +30,16 @@
 #advertisement-top {
   position: relative;
   top: 79px;
-  border: solid .1px;
 }
 
 #advertisement-middle {
   position: relative;
   top: 672px;
-  border: solid .1px;
 }
 
 #advertisement-bottom {
   position: relative;
   top: 1265px;
-  border: solid .1px;
 }
 
 body:before {
@@ -532,6 +529,14 @@ input[type="checkbox"]:checked ~ .large-content {
   .footer-color {
     position: absolute;
     top: 2475px;
+  }
+}
+
+/* For screens of 770px or less */
+@media only screen and (max-width: 770px) {
+  .horizontal-ad {
+    width: 95%;
+    overflow: hidden;
   }
 }
 
