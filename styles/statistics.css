@@ -19,18 +19,14 @@
   display: inline-block;
   width: 728px;
   height: 89px;
-  box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
+  border: solid .1px;
 }
 
 .square-ad {
   display: inline-block;
   width: 300px;
   height: 250px;
-  box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
+  border: solid .1px;
 }
 
 #advertisement-top {
@@ -48,6 +44,7 @@
 #advertisement-bottom {
   position: relative;
   top: 587px;
+
 }
 
 body:before {
@@ -265,7 +262,7 @@ table.smallSiteTable tbody td {
 
 .footer-color {
   position: absolute;
-  top: 1000px;
+  top: 990px;
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -412,6 +409,14 @@ table.smallSiteTable tbody td {
 
 /* For screens of 925px or less */
 @media only screen and (max-width: 925px) {
+  #advertisement-right {
+    display: none;
+  }
+
+  #advertisement-bottom {
+    top: 628px;
+  }
+
   table.bigSiteTable {
     display: none;
   }
@@ -422,12 +427,12 @@ table.smallSiteTable tbody td {
 
   .in-depth-desc {
     position: absolute;
-    top: 700px;
+    top: 821px;
   }
 
   .footer-color {
     position: absolute;
-    top: 900px;
+    top: 1025px;
   }
 
   .background-about {
@@ -442,8 +447,19 @@ table.smallSiteTable tbody td {
   }
 }
 
+/* For screens of 770px or less */
+@media only screen and (max-width: 770px) {
+  .horizontal-ad {
+    width: 600px;
+  }
+}
+
 /* For screens of 755px or less */
 @media only screen and (max-width: 755px) {
+  #advertisement-bottom {
+    top: 703px;
+  }
+
   .item {
     height: 230px;
   }
@@ -499,18 +515,18 @@ table.smallSiteTable tbody td {
 
   .table-position {
     position: absolute;
-    top: 390px;
+    top: 440px;
   }
 
   .in-depth-desc {
     position: absolute;
-    top: 775px;
+    top: 895px;
     height: 225px;
   }
 
   .footer-color {
     position: absolute;
-    top: 1050px;
+    top: 1160px;
   }
 
   .background-about {
@@ -520,6 +536,14 @@ table.smallSiteTable tbody td {
 
 /* For screens of 645px or less */
 @media only screen and (max-width: 645px) {
+  .horizontal-ad {
+    width: 500px;
+  }
+
+  #advertisement-bottom {
+    top: 683px;
+  }
+
   table.smallSiteTable {
     width: 100%;
     height: 330px;
@@ -531,12 +555,12 @@ table.smallSiteTable tbody td {
 
   .in-depth-desc {
     position: absolute;
-    top: 755px;
+    top: 875px;
   }
 
   .footer-color {
     position: absolute;
-    top: 1030px;
+    top: 1140px;
   }
 }
 
@@ -579,6 +603,14 @@ table.smallSiteTable tbody td {
 
 /* For screens of 535px or less */
 @media only screen and (max-width: 535px) {
+  .horizontal-ad {
+    width: 400px;
+  }
+
+  #advertisement-bottom {
+    top: 698px;
+  }
+
   table.smallSiteTable {
     width: 100%;
     height: 344px;
@@ -590,13 +622,13 @@ table.smallSiteTable tbody td {
 
   .in-depth-desc {
     position: absolute;
-    top: 770px;
+    top: 890px;
     height: 250px;
   }
 
   .footer-color {
     position: absolute;
-    top: 1065px;
+    top: 1180px;
   }
 
   .background-about {
@@ -614,6 +646,10 @@ table.smallSiteTable tbody td {
 
 /* For screens of 500px or less */
 @media only screen and (max-width: 500px) {
+  #advertisement-bottom {
+    top: 683px;
+  }
+
   table.smallSiteTable {
     width: 100%;
     height: 330px;
@@ -625,12 +661,12 @@ table.smallSiteTable tbody td {
 
   .in-depth-desc {
     position: absolute;
-    top: 755px;
+    top: 875px;
   }
 
   .footer-color {
     position: absolute;
-    top: 1050px;
+    top: 1165px;
   }
 }
 
@@ -643,6 +679,10 @@ table.smallSiteTable tbody td {
 
 /* For screens of 450px or less */
 @media only screen and (max-width: 450px) {
+  #advertisement-bottom {
+    top: 739px;
+  }
+
   table.smallSiteTable {
     width: 100%;
     height: 388px;
@@ -654,13 +694,13 @@ table.smallSiteTable tbody td {
 
   .in-depth-desc {
     position: absolute;
-    top: 815px;
+    top: 930px;
     height: 275px;
   }
 
   .footer-color {
     position: absolute;
-    top: 1135px;
+    top: 1245px;
   }
 
   .background-about {
@@ -670,6 +710,10 @@ table.smallSiteTable tbody td {
 
 /* For screens of 440px or less */
 @media only screen and (max-width: 440px) {
+  .horizontal-ad {
+    width: 300px;
+  }
+
   .header {
     font-size: 34px;
   }
@@ -680,17 +724,21 @@ table.smallSiteTable tbody td {
 
   .in-depth-desc {
     position: absolute;
-    top: 815px;
+    top: 930px;
   }
 
   .footer-color {
     position: absolute;
-    top: 1135px;
+    top: 1245px;
   }
 }
 
 /* For screens of 420px or less */
 @media only screen and (max-width: 420px) {
+  #advertisement-bottom {
+    top: 641px;
+  }
+
   .item {
     height: 190px;
   }
@@ -736,7 +784,7 @@ table.smallSiteTable tbody td {
 
   .table-position {
     position: absolute;
-    top: 350px;
+    top: 400px;
   }
 
   table.smallSiteTable {
@@ -750,13 +798,13 @@ table.smallSiteTable tbody td {
 
   .in-depth-desc {
     position: absolute;
-    top: 720px;
+    top: 832px;
     height: 325px;
   }
 
   .footer-color {
     position: absolute;
-    top: 1095px;
+    top: 1196px;
   }
 }
 
@@ -813,7 +861,7 @@ table.smallSiteTable tbody td {
 
   .footer-color {
     position: absolute;
-    top: 1115px;
+    top: 1226px;
   }
 }
 
@@ -830,6 +878,14 @@ table.smallSiteTable tbody td {
 
 /* For screens of 330px or less */
 @media only screen and (max-width: 330px) {
+  .horizontal-ad {
+    width: 270px;
+  }
+
+  #advertisement-bottom {
+    top: 659px;
+  }
+
   table.smallSiteTable {
     width: 100%;
     height: 348px;
@@ -841,12 +897,12 @@ table.smallSiteTable tbody td {
 
   .in-depth-desc {
     position: absolute;
-    top: 735px;
+    top: 850px;
   }
 
   .footer-color {
     position: absolute;
-    top: 1135px;
+    top: 1245px;
   }
 
   .aboutp1 {

@@ -18,34 +18,31 @@
 .horizontal-ad {
   display: inline-block;
   width: 728px;
-  height: 89px;
-  box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
+  height: 87px;
 }
 
 .square-ad {
   display: inline-block;
   width: 300px;
   height: 250px;
-  box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
 }
 
 #advertisement-top {
   position: relative;
   top: 79px;
+  border: solid .1px;
 }
 
 #advertisement-middle {
   position: relative;
-  top: 688px;
+  top: 672px;
+  border: solid .1px;
 }
 
 #advertisement-bottom {
   position: relative;
-  top: 1318px;
+  top: 1265px;
+  border: solid .1px;
 }
 
 body:before {
@@ -372,7 +369,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
 .footer-color {
   position: absolute;
-  top: 2575px;
+  top: 2507px;
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -534,7 +531,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 1889px;
+    top: 2475px;
   }
 }
 
@@ -576,7 +573,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 1859px;
+    top: 2443px;
   }
 }
 
@@ -742,7 +739,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 1775px;
+    top: 2355px;
   }
 
   .copyright {
@@ -824,6 +821,6 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 1745px;
+    top: 2320px;
   }
 }
