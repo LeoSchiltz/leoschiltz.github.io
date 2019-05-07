@@ -19,12 +19,14 @@
   display: inline-block;
   width: 728px;
   height: 89px;
+  border: solid .1px;
 }
 
 .square-ad {
   display: inline-block;
   width: 300px;
   height: 250px;
+  border: solid .1px;
 }
 
 #advertisement-top {
@@ -448,7 +450,7 @@ table.smallSiteTable tbody td {
 /* For screens of 770px or less */
 @media only screen and (max-width: 770px) {
   .horizontal-ad {
-    width: 600px;
+    width: 95%;
   }
 }
 
@@ -534,10 +536,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 645px or less */
 @media only screen and (max-width: 645px) {
-  .horizontal-ad {
-    width: 500px;
-  }
-
   #advertisement-bottom {
     top: 683px;
   }
@@ -601,10 +599,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 535px or less */
 @media only screen and (max-width: 535px) {
-  .horizontal-ad {
-    width: 400px;
-  }
-
   #advertisement-bottom {
     top: 698px;
   }
@@ -708,10 +702,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 440px or less */
 @media only screen and (max-width: 440px) {
-  .horizontal-ad {
-    width: 300px;
-  }
-
   .header {
     font-size: 34px;
   }
@@ -876,10 +866,6 @@ table.smallSiteTable tbody td {
 
 /* For screens of 330px or less */
 @media only screen and (max-width: 330px) {
-  .horizontal-ad {
-    width: 270px;
-  }
-
   #advertisement-bottom {
     top: 659px;
   }
