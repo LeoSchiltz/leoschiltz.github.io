@@ -19,14 +19,12 @@
   display: inline-block;
   width: 728px;
   height: 89px;
-  border: solid .1px;
 }
 
 .square-ad {
   display: inline-block;
   width: 300px;
   height: 250px;
-  border: solid .1px;
 }
 
 #advertisement-top {
