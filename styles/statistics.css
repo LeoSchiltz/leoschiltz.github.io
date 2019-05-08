@@ -23,7 +23,8 @@
   min-width: 728px;
   max-height: 90px;
   min-height: 90px;
-  overflow: scroll;
+  overflow: hidden;
+  border: solid #223861 4px;
 }
 
 .square-ad {
@@ -34,12 +35,13 @@
   min-width: 300px;
   max-height: 250px;
   min-height: 250px;
-  overflow: scroll;
+  overflow: hidden;
+  border: solid #223861 4px;
 }
 
 #advertisement-top {
   position: relative;
-  top: 79px;
+  top: 73.5px;
 }
 
 #advertisement-right {
@@ -51,7 +53,7 @@
 
 #advertisement-bottom {
   position: relative;
-  top: 587px;
+  top: 580px;
 
 }
 
@@ -464,7 +466,7 @@ table.smallSiteTable tbody td {
     min-width: 95%;
     max-height: 90px;
     min-height: 90px;
-    overflow: scroll;
+    overflow: hidden;
   }
 }
 
