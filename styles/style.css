@@ -31,17 +31,17 @@
 
 #advertisement-top {
   position: relative;
-  top: 73.5px;
+  top: 78px;
 }
 
 #advertisement-middle {
   position: relative;
-  top: 661px;
+  top: 673px;
 }
 
 #advertisement-bottom {
   position: relative;
-  top: 1248px;
+  top: 1268px;
 }
 
 body:before {
