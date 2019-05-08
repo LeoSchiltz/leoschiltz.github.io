@@ -19,24 +19,14 @@
   display: inline-block;
   width: 728px;
   height: 90px;
-  max-width: 728px;
-  min-width: 728px;
-  max-height: 90px;
-  min-height: 90px;
   overflow: hidden;
-  border: solid #223861 4px;
 }
 
 .square-ad {
   display: inline-block;
   width: 300px;
   height: 250px;
-  max-width: 300px;
-  min-width: 300px;
-  max-height: 250px;
-  min-height: 250px;
   overflow: hidden;
-  border: solid #223861 4px;
 }
 
 #advertisement-top {
@@ -549,10 +539,6 @@ input[type="checkbox"]:checked ~ .large-content {
   .horizontal-ad {
     width: 95%;
     height: 90px;
-    max-width: 95%;
-    min-width: 95%;
-    max-height: 90px;
-    min-height: 90px;
     overflow: hidden;
   }
 }
@@ -601,6 +587,16 @@ input[type="checkbox"]:checked ~ .large-content {
 
 /* For screens of 640px or less */
 @media only screen and (max-width: 640px) {
+  #advertisement-middle {
+    position: relative;
+    top: 761px;
+  }
+
+  #advertisement-bottom {
+    position: relative;
+    top: 1448px;
+  }
+
   .header {
     width: 78%;
   }
@@ -731,6 +727,21 @@ input[type="checkbox"]:checked ~ .large-content {
 
 /* For screens of 360px or less */
 @media only screen and (max-width: 360px) {
+  .square-ad {
+    width: 265px;
+    height: 240px;
+  }
+
+  #advertisement-middle {
+    position: relative;
+    top: 730px;
+  }
+
+  #advertisement-bottom {
+    position: relative;
+    top: 1392px;
+  }
+
   #submachine-item-nav {
     margin-top: 80px;
   }
