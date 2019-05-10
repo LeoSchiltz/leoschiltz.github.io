@@ -740,12 +740,12 @@ input[type="checkbox"]:checked ~ .large-content {
 /* For screens of 360px or less */
 @media only screen and (max-width: 360px) {
   .square-ad {
-    width: 240px;
-    height: 225px;
-    max-width: 240px;
-    min-width: 240px;
-    max-height: 225px;
-    min-height: 225px;
+    width: 250px;
+    height: 230px;
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 230px;
+    min-height: 230px;
   }
 
   #advertisement-middle {
