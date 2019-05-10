@@ -44,12 +44,12 @@
 
 #advertisement-middle {
   position: relative;
-  top: 672.99px;
+  top: 673px;
 }
 
 #advertisement-bottom {
   position: relative;
-  top: 1267px;
+  top: 1267.5px;
 }
 
 body:before {
@@ -606,7 +606,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   #advertisement-bottom {
     position: relative;
-    top: 1467px;
+    top: 1467.5px;
   }
 
   .header {
@@ -755,7 +755,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   #advertisement-bottom {
     position: relative;
-    top: 1392px;
+    top: 1413px;
   }
 
   #submachine-item-nav {
