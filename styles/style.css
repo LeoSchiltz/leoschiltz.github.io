@@ -44,12 +44,12 @@
 
 #advertisement-middle {
   position: relative;
-  top: 673px;
+  top: 672.99px;
 }
 
 #advertisement-bottom {
   position: relative;
-  top: 1268px;
+  top: 1267px;
 }
 
 body:before {
@@ -601,12 +601,12 @@ input[type="checkbox"]:checked ~ .large-content {
 @media only screen and (max-width: 640px) {
   #advertisement-middle {
     position: relative;
-    top: 761px;
+    top: 772.999px;
   }
 
   #advertisement-bottom {
     position: relative;
-    top: 1448px;
+    top: 1467px;
   }
 
   .header {
@@ -740,17 +740,17 @@ input[type="checkbox"]:checked ~ .large-content {
 /* For screens of 360px or less */
 @media only screen and (max-width: 360px) {
   .square-ad {
-    width: 250px;
-    height: 230px;
-    max-width: 250px;
-    min-width: 250px;
-    max-height: 230px;
-    min-height: 230px;
+    width: 260px;
+    height: 240px;
+    max-width: 260px;
+    min-width: 260px;
+    max-height: 240px;
+    min-height: 240px;
   }
 
   #advertisement-middle {
     position: relative;
-    top: 730px;
+    top: 742.999px;
   }
 
   #advertisement-bottom {
