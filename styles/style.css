@@ -742,6 +742,10 @@ input[type="checkbox"]:checked ~ .large-content {
   .square-ad {
     width: 240px;
     height: 225px;
+    max-width: 240px;
+    min-width: 240px;
+    max-height: 225px;
+    min-height: 225px;
   }
 
   #advertisement-middle {
