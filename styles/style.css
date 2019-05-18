@@ -212,14 +212,14 @@ body:before {
   display: none;
 }
 
-.item-title {
+.gun-title {
   font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
   font-size: 40px;
   color: #ffffff;
   text-align: center;
 }
 
-.item-nav {
+.gun-nav {
   text-align: center;
   user-select: none;
   -moz-user-select: none;
@@ -227,15 +227,15 @@ body:before {
   -webkit-user-select: none;
 }
 
-.item-nav il {
+.gun-nav il {
   margin: 0px 20px;
 }
 
-.item-responsive, .item-responsive-large {
+.gun-responsive, .gun-responsive-large {
   display: inline;
 }
 
-.item-image {
+.gun-image {
   display: inline-block;
   transition: .2s ease-in;
   width: 90px;
@@ -248,7 +248,7 @@ body:before {
   border: #ffffff 4px solid;
 }
 
-.item-image:hover {
+.gun-image:hover {
   transform: scale(1.050, 1.050);
   transition: .3s ease-in;
   -webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
@@ -256,7 +256,7 @@ body:before {
   box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
 }
 
-.item-info-1-line {
+.gun-info-1-line {
   position: absolute;
   width: 100px;
   margin-top: 75px;
@@ -266,7 +266,7 @@ body:before {
   color: #ffffff;
 }
 
-.item-info-2-line {
+.gun-info-2-line {
   position: absolute;
   width: 100px;
   line-height: 12px;
@@ -277,7 +277,7 @@ body:before {
   color: #ffffff;
 }
 
-.item-info-3-line {
+.gun-info-3-line {
   position: absolute;
   width: 100px;
   line-height: 12px;
@@ -288,12 +288,12 @@ body:before {
   color: #ffffff;
 }
 
-#assault-item-nav, #submachine-item-nav, #item-item-nav, #pistol-nav, #other-nav, #vaulted-nav {
+#assault-rifle-nav, #submachine-gun-nav, #sniper-rifle-nav, #pistol-nav, #other-nav, #vaulted-nav {
   height: 187px;
   border-top: solid #0a2454 6px;
 }
 
-#item-nav, #explosive-nav {
+#shotgun-nav, #explosive-nav {
   height: 187px;
   border-top: solid #0a2454 6px;
   border-bottom: solid #0a2454 6px;
@@ -315,7 +315,7 @@ body:before {
   position: absolute;
   top: -6px;
   transition: max-height .2s ease-in-out;
-  height: 430px;
+  height: 543px;
   max-height: 0px;
   background-color: #324a77;
   overflow: hidden;
@@ -368,7 +368,7 @@ input[type="checkbox"]:checked ~ .content {
 }
 
 input[type="checkbox"]:checked ~ .large-content {
-  max-height: 430px;
+  max-height: 543px;
   z-index: 2;
   border-top: solid #ffffff 6px;
   border-bottom: solid #ffffff 6px;
@@ -376,7 +376,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
 .footer-color {
   position: absolute;
-  top: 2507px;
+  top: 2620px;
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -403,19 +403,19 @@ input[type="checkbox"]:checked ~ .large-content {
 }
 
 /* Common static */
-#assault-item, #burst-assault-item, #heavy-assault-item, #suppressed-submachine-item, #submachine-item-old, #submachine-item-new, #tactical-item, #pistol, #revolver, #flint-knock-pistol {
+#assault-rifle, #burst-assault-rifle, #heavy-assault-rifle, #suppressed-submachine-gun, #submachine-gun-old, #submachine-gun-new, #tactical-shotgun, #pistol, #revolver, #flint-knock-pistol {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
-#scoped-assault-item, #infantry-item, #tactical-submachine-item, #drum-item, #pump-item, #semi-auto-item-item, #hunting-item, #six-shooter {
+#scoped-assault-rifle, #infantry-rifle, #tactical-submachine-gun, #drum-gun, #pump-shotgun, #semi-auto-sniper-rifle, #hunting-rifle, #six-shooter {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare static */
-#bolt-action-item-item, #suppressed-pistol, #dual-pistol, #grenade-launcher, #crossbow, #light-machine-item {
+#tactical-assault-rifle, #combat-shotgun, #bolt-action-sniper-rifle, #suppressed-pistol, #dual-pistol, #grenade-launcher, #crossbow, #light-machine-gun {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic static */
-#thermal-assault-item, #suppressed-assault-item, #compact-submachine-item, #heavy-item, #double-barrel-item, #heavy-item-item, #suppressed-item-item, #hand-cannon, #scoped-revolver, #rocket-launcher, #guided-missile, #quad-launcher, #miniitem, #fiend-hunter-crossbow, #cupids-crossbow {
+#thermal-assault-rifle, #suppressed-assault-rifle, #compact-smg, #heavy-shotgun, #double-barrel-shotgun, #heavy-sniper-rifle, #suppressed-sniper-rifle, #hand-cannon, #scoped-revolver, #rocket-launcher, #guided-missile, #quad-launcher, #minigun, #fiend-hunter-crossbow, #cupids-crossbow {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary static */
@@ -431,25 +431,25 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
-#scoped-assault-item:hover, #heavy-assault-item:hover, #submachine-item-old:hover, #suppressed-submachine-item:hover, #submachine-item-new:hover, #drum-item:hover, #tactical-item:hover, #semi-auto-item-item:hover, #hunting-item:hover, #revolver:hover {
+#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #submachine-gun-old:hover, #suppressed-submachine-gun:hover, #submachine-gun-new:hover, #drum-gun:hover, #tactical-shotgun:hover, #semi-auto-sniper-rifle:hover, #hunting-rifle:hover, #revolver:hover {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */
-#tactical-submachine-item:hover, #bolt-action-item-item:hover, #suppressed-pistol:hover, #dual-pistol:hover, #six-shooter:hover, #crossbow:hover, #light-machine-item:hover, #fiend-hunter-crossbow:hover, #cupids-crossbow:hover {
+#tactical-submachine-gun:hover, #bolt-action-sniper-rifle:hover, #suppressed-pistol:hover, #dual-pistol:hover, #six-shooter:hover, #crossbow:hover, #light-machine-gun:hover, #fiend-hunter-crossbow:hover, #cupids-crossbow:hover {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-item:hover, #burst-assault-item:hover, #thermal-assault-item:hover, #suppressed-assault-item:hover, #infantry-item:hover, #compact-submachine-item:hover, #pump-item:hover, #heavy-item:hover, #double-barrel-item:hover, #heavy-item-item:hover, #suppressed-item-item:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover #zapotron:hover, #miniitem:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #infantry-rifle:hover, #tactical-assault-rifle:hover, #compact-smg:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #combat-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover #zapotron:hover, #minigun:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
 /* For screens of 10000px or less */
 @media only screen and (max-width: 10000px) {
-  .item-responsive-large {
+  .gun-responsive-large {
     display: block;
   }
 
-  .item-responsive-condense {
+  .gun-responsive-condense {
     display: inline;
   }
 }
@@ -505,40 +505,40 @@ input[type="checkbox"]:checked ~ .large-content {
 
 /* For screens of 930px or less */
 @media only screen and (max-width: 930px) {
-  .item-image {
+  .gun-image {
     width: 80px;
     height: 80px;
   }
 
-  .item-nav il {
+  .gun-nav il {
     margin: 0 10px;
   }
 
-  .item-info-1-line {
+  .gun-info-1-line {
     width: 90px;
     margin-top: 65px;
     margin-left: -85px;
   }
 
-  .item-info-2-line {
+  .gun-info-2-line {
     width: 90px;
     margin-top: 61px;
     margin-left: -85px;
   }
 
-  .item-info-3-line {
+  .gun-info-3-line {
     width: 90px;
     margin-top: 49px;
     margin-left: -85px;
   }
 
   input[type="checkbox"]:checked ~ .large-content {
-    max-height: 400px;
+    max-height: 505px;
   }
 
   .footer-color {
     position: absolute;
-    top: 2475px;
+    top: 2580px;
   }
 }
 
@@ -557,30 +557,30 @@ input[type="checkbox"]:checked ~ .large-content {
 
 /* For screens of 760px or less */
 @media only screen and (max-width: 760px) {
-  .item-image {
+  .gun-image {
     width: 70px;
     height: 70px;
   }
 
-  .item-nav il {
+  .gun-nav il {
     margin: 0 5px;
   }
 
-  .item-info-1-line {
+  .gun-info-1-line {
     width: 80px;
     margin-top: 58px;
     margin-left: -75px;
     font-size: 14px;
   }
 
-  .item-info-2-line {
+  .gun-info-2-line {
     width: 80px;
     margin-top: 51px;
     margin-left: -75px;
     font-size: 14px;
   }
 
-  .item-info-3-line {
+  .gun-info-3-line {
     width: 80px;
     margin-top: 39px;
     margin-left: -75px;
@@ -588,12 +588,12 @@ input[type="checkbox"]:checked ~ .large-content {
   }
 
   input[type="checkbox"]:checked ~ .large-content {
-    max-height: 370px;
+    max-height: 460px;
   }
 
   .footer-color {
     position: absolute;
-    top: 2443px;
+    top: 2538px;
   }
 }
 
@@ -613,19 +613,19 @@ input[type="checkbox"]:checked ~ .large-content {
     width: 78%;
   }
 
-  .item-responsive {
+  .gun-responsive {
     display: block;
   }
 
-  .item-responsive-condense {
+  .gun-responsive-condense {
     display: block;
   }
 
-  #assault-item-nav, #pistol-nav {
+  #assault-gun-nav, #pistol-nav {
     padding-bottom: 95px;
   }
 
-  #submachine-item-nav, #item-nav, #item-item-nav, #pistol-nav {
+  #submachine-gun-nav, #gun-nav, #gun-gun-nav, #pistol-nav {
     margin-top: 100px;
   }
 
@@ -643,7 +643,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer {
     position: absolute;
-    top: 488px;
+    top: 580px;
   }
 }
 
@@ -732,7 +732,7 @@ input[type="checkbox"]:checked ~ .large-content {
     top: 9px;
   }
 
-  .item-title {
+  .gun-title {
     font-size: 32px;
   }
 }
@@ -758,15 +758,15 @@ input[type="checkbox"]:checked ~ .large-content {
     top: 1413px;
   }
 
-  #submachine-item-nav {
+  #submachine-gun-nav {
     margin-top: 80px;
   }
 
-  #item-nav {
+  #gun-nav {
     margin-top: 70px;
   }
 
-  #item-item-nav {
+  #gun-gun-nav {
     margin-top: 60px;
   }
 
@@ -788,7 +788,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 2355px;
+    top: 2447px;
   }
 
   .copyright {
@@ -835,33 +835,33 @@ input[type="checkbox"]:checked ~ .large-content {
     top: 8px;
   }
 
-  .item-title {
+  .gun-title {
     font-size: 30px;
   }
 }
 
 /* For screens of 319px or less */
 @media only screen and (max-width: 319px) {
-  .item-image {
+  .gun-image {
     width: 65px;
     height: 65px;
   }
 
-  .item-info-1-line {
+  .gun-info-1-line {
     width: 75px;
     margin-top: 54.4px;
     margin-left: -70px;
     font-size: 12px;
   }
 
-  .item-info-2-line {
+  .gun-info-2-line {
     width: 75px;
     margin-top: 46px;
     margin-left: -70px;
     font-size: 12px;
   }
 
-  .item-info-3-line {
+  .gun-info-3-line {
     width: 75px;
     margin-top: 34px;
     margin-left: -70px;
@@ -870,6 +870,6 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 2320px;
+    top: 2405px;
   }
 }

@@ -43,10 +43,9 @@
 }
 
 #advertisement-right {
-  position: relative;
-  top: 296px;
-  float: right;
-  margin-right: 95px;
+  position: absolute;
+  top: calc(518px - (/* height */250px / 2));
+  left: calc(80vw - (/* width */300px / 2));
 }
 
 #advertisement-bottom {
@@ -110,7 +109,7 @@ a:hover {
   z-index: 3;
 }
 
-.item {
+.gun {
   position: absolute;
   top: 175px;
   height: 156px;
@@ -123,7 +122,7 @@ a:hover {
   border-bottom: solid #ffffff;
 }
 
-.item-image {
+.gun-image {
   width: 140px;
   height: 148px;
   padding: 5px;
@@ -135,7 +134,7 @@ a:hover {
   -webkit-user-select: none;
 }
 
-.item-name {
+.gun-name {
   position: absolute;
   top: 3px;
   left: 165px;
@@ -145,7 +144,7 @@ a:hover {
   font-size: 55px;
 }
 
-.item-specifics {
+.gun-specifics {
   position: absolute;
   top: 45px;
   left: 165px;
@@ -183,7 +182,9 @@ a:hover {
 .table-position {
   position: absolute;
   top: 365px;
-  height: 300px;
+  height: 305px;
+  background-color: rgba(34, 56, 97, .3);
+  border-bottom: solid white 4px;
 }
 
 table.bigSiteTable {
@@ -306,7 +307,7 @@ table.smallSiteTable tbody td {
   position: relative;
   top: 70px;
   width: 90%;
-  height: 795px;
+  height: 918px;
   margin: 0 auto;
   background-color: rgba(34, 56, 97, 0.6);
   -webkit-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
@@ -372,11 +373,19 @@ table.smallSiteTable tbody td {
   width: 80%;
 }
 
+/* For screens of 1350px or less */
+@media only screen and (max-width: 1350px) {
+  table.bigSiteTable {
+    position: absolute;
+    left: 100px;
+  }
+}
+
 /* For screens of 1245px or less */
 @media only screen and (max-width: 1245px) {
   table.bigSiteTable {
     position: absolute;
-    left: 100px;
+    left: 50px;
   }
 }
 
@@ -389,7 +398,7 @@ table.smallSiteTable tbody td {
 
   table.bigSiteTable {
     position: absolute;
-    left: 50px;
+    width: 500px;
   }
 }
 
@@ -408,15 +417,8 @@ table.smallSiteTable tbody td {
   }
 }
 
-/* For screens of 970px or less */
-@media only screen and (max-width: 970px) {
-  .desc-specifics {
-    width: 30%;
-  }
-}
-
 /* For screens of 925px or less */
-@media only screen and (max-width: 925px) {
+@media only screen and (max-width: 970px) {
   #advertisement-right {
     display: none;
   }
@@ -424,6 +426,10 @@ table.smallSiteTable tbody td {
   #advertisement-bottom {
     position: absolute;
     top: 719.5px;
+  }
+
+  .desc-specifics {
+    width: 30%;
   }
 
   table.bigSiteTable {
@@ -445,7 +451,7 @@ table.smallSiteTable tbody td {
   }
 
   .background-about {
-    height: 830px;
+    height: 952px;
   }
 }
 
@@ -472,26 +478,27 @@ table.smallSiteTable tbody td {
 /* For screens of 755px or less */
 @media only screen and (max-width: 755px) {
   #advertisement-bottom {
+    position: absolute;
     top: 794px;
   }
 
-  .item {
+  .gun {
     height: 230px;
   }
 
-  .item-image {
+  .gun-image {
     width: 100px;
     height: 105px;
   }
 
-  .item-name {
+  .gun-name {
     position: absolute;
     left: 125px;
     width: 320px;
     font-size: 45px;
   }
 
-  .item-specifics {
+  .gun-specifics {
     position: absolute;
     top: 45px;
     left: 116px;
@@ -545,13 +552,14 @@ table.smallSiteTable tbody td {
   }
 
   .background-about {
-    height: 980px;
+    height: 1087px;
   }
 }
 
 /* For screens of 645px or less */
 @media only screen and (max-width: 645px) {
   #advertisement-bottom {
+    position: absolute;
     top: 683px;
   }
 
@@ -584,11 +592,11 @@ table.smallSiteTable tbody td {
 
 /* For screens of 580px or less */
 @media only screen and (max-width: 580px) {
-  .item-name {
+  .gun-name {
     width: 275px;
   }
 
-  .item-specifics {
+  .gun-specifics {
     width: 220px;
   }
 
@@ -615,6 +623,7 @@ table.smallSiteTable tbody td {
 /* For screens of 535px or less */
 @media only screen and (max-width: 535px) {
   #advertisement-bottom {
+    position: absolute;
     top: 698px;
   }
 
@@ -654,6 +663,7 @@ table.smallSiteTable tbody td {
 /* For screens of 500px or less */
 @media only screen and (max-width: 500px) {
   #advertisement-bottom {
+    position: absolute;
     top: 683px;
   }
 
@@ -687,6 +697,7 @@ table.smallSiteTable tbody td {
 /* For screens of 450px or less */
 @media only screen and (max-width: 450px) {
   #advertisement-bottom {
+    position: absolute;
     top: 739px;
   }
 
@@ -739,26 +750,27 @@ table.smallSiteTable tbody td {
 /* For screens of 420px or less */
 @media only screen and (max-width: 420px) {
   #advertisement-bottom {
+    position: absolute;
     top: 641px;
   }
 
-  .item {
+  .gun {
     height: 190px;
   }
 
-  .item-image {
+  .gun-image {
     width: 80px;
     height: 80px;
   }
 
-  .item-name {
+  .gun-name {
     position: absolute;
     left: 104px;
     width: 220px;
     font-size: 35px;
   }
 
-  .item-specifics {
+  .gun-specifics {
     position: absolute;
     top: 38px;
     left: 98px;
@@ -832,12 +844,12 @@ table.smallSiteTable tbody td {
 
 /* For screens of 345px or less */
 @media only screen and (max-width: 345px) {
-  .item-name {
+  .gun-name {
     width: 190px;
     font-size: 30px;
   }
 
-  .item-specifics {
+  .gun-specifics {
     position: absolute;
     top: 35px;
     width: 195px;
@@ -882,6 +894,7 @@ table.smallSiteTable tbody td {
 /* For screens of 330px or less */
 @media only screen and (max-width: 330px) {
   #advertisement-bottom {
+    position: absolute;
     top: 659px;
   }
 
@@ -915,13 +928,13 @@ table.smallSiteTable tbody td {
 
 /* For screens of 319px or less */
 @media only screen and (max-width: 319px) {
-  .item-name {
+  .gun-name {
     position: absolute;
     left: 100px;
     width: 180px;
   }
 
-  .item-specifics {
+  .gun-specifics {
     position: absolute;
     left: 95px;
     width: 181px;
