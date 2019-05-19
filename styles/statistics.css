@@ -451,7 +451,7 @@ table.smallSiteTable tbody td {
   }
 
   .background-about {
-    height: 952px;
+    height: 953px;
   }
 }
 
@@ -552,7 +552,7 @@ table.smallSiteTable tbody td {
   }
 
   .background-about {
-    height: 1087px;
+    height: 1088px;
   }
 }
 
@@ -580,6 +580,10 @@ table.smallSiteTable tbody td {
   .footer-color {
     position: absolute;
     top: 1140px;
+  }
+
+  .background-about {
+    height: 1068px;
   }
 }
 
@@ -648,7 +652,7 @@ table.smallSiteTable tbody td {
   }
 
   .background-about {
-    height: 995px;
+    height: 1108px;
   }
 }
 
@@ -684,6 +688,10 @@ table.smallSiteTable tbody td {
   .footer-color {
     position: absolute;
     top: 1165px;
+  }
+
+  .background-about {
+    height: 1093px;
   }
 }
 
@@ -722,7 +730,7 @@ table.smallSiteTable tbody td {
   }
 
   .background-about {
-    height: 1065px;
+    height: 1173px;
   }
 }
 
@@ -821,6 +829,10 @@ table.smallSiteTable tbody td {
     position: absolute;
     top: 1196px;
   }
+
+  .background-about {
+    height: 1124px;
+  }
 }
 
 /* For screns of 380px or less */
@@ -878,6 +890,10 @@ table.smallSiteTable tbody td {
     position: absolute;
     top: 1226px;
   }
+
+  .background-about {
+    height: 1154px;
+  }
 }
 
 /* For screens of 340px or less */
@@ -915,6 +931,10 @@ table.smallSiteTable tbody td {
   .footer-color {
     position: absolute;
     top: 1245px;
+  }
+
+  .background-about {
+    height: 1173px;
   }
 
   .aboutp1 {
