@@ -621,11 +621,11 @@ input[type="checkbox"]:checked ~ .large-content {
     display: block;
   }
 
-  #assault-gun-nav, #pistol-nav {
+  #assault-rifle-nav, #pistol-nav {
     padding-bottom: 95px;
   }
 
-  #submachine-gun-nav, #gun-nav, #gun-gun-nav, #pistol-nav {
+  #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav {
     margin-top: 100px;
   }
 
