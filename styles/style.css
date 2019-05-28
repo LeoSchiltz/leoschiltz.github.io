@@ -40,19 +40,16 @@
 #advertisement-top {
   position: relative;
   top: 78px;
-  border: solid black .1px;
 }
 
 #advertisement-middle {
   position: relative;
   top: 673px;
-  border: solid black .1px;
 }
 
 #advertisement-bottom {
   position: relative;
   top: 1267.5px;
-  border: solid black .1px;
 }
 
 body:before {
