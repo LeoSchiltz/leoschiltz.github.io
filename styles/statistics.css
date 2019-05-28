@@ -51,7 +51,7 @@
 
 #advertisement-bottom {
   position: relative;
-  top: 590px;
+  top: 591px;
 }
 
 body:before {
@@ -291,6 +291,7 @@ table.smallSiteTable tbody td {
 
 .copyright a {
   color: #ffffff;
+  transition: .12s ease-in;
 }
 
 .copyright a:hover {
@@ -425,7 +426,7 @@ table.smallSiteTable tbody td {
 
   #advertisement-bottom {
     position: relative;
-    top: 629px;
+    top: 629.5px;
   }
 
   .desc-specifics {
@@ -479,7 +480,7 @@ table.smallSiteTable tbody td {
 @media only screen and (max-width: 755px) {
   #advertisement-bottom {
     position: relative;
-    top: 703px;
+    top: 704px;
   }
 
   .gun {
@@ -560,7 +561,7 @@ table.smallSiteTable tbody td {
 @media only screen and (max-width: 645px) {
   #advertisement-bottom {
     position: relative;
-    top: 683px;
+    top: 684px;
   }
 
   table.smallSiteTable {
@@ -668,7 +669,7 @@ table.smallSiteTable tbody td {
 @media only screen and (max-width: 500px) {
   #advertisement-bottom {
     position: relative;
-    top: 683px;
+    top: 684px;
   }
 
   table.smallSiteTable {
@@ -706,7 +707,7 @@ table.smallSiteTable tbody td {
 @media only screen and (max-width: 450px) {
   #advertisement-bottom {
     position: relative;
-    top: 739px;
+    top: 740px;
   }
 
   table.smallSiteTable {
@@ -759,7 +760,7 @@ table.smallSiteTable tbody td {
 @media only screen and (max-width: 420px) {
   #advertisement-bottom {
     position: relative;
-    top: 641px;
+    top: 642px;
   }
 
   .gun {
@@ -911,7 +912,7 @@ table.smallSiteTable tbody td {
 @media only screen and (max-width: 330px) {
   #advertisement-bottom {
     position: relative;
-    top: 659px;
+    top: 660px;
   }
 
   table.smallSiteTable {
