@@ -44,12 +44,12 @@
 
 #advertisement-middle {
   position: relative;
-  top: 673px;
+  top: 672px;
 }
 
 #advertisement-bottom {
   position: relative;
-  top: 1267.5px;
+  top: 1267px;
 }
 
 body:before {
@@ -607,7 +607,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   #advertisement-bottom {
     position: relative;
-    top: 1566px;
+    top: 1567px;
   }
 
   .header {
@@ -760,7 +760,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   #advertisement-bottom {
     position: relative;
-    top: 1500px;
+    top: 1502px;
   }
 
   #submachine-gun-nav {
