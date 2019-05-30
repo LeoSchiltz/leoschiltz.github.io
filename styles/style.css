@@ -18,9 +18,9 @@
 .horizontal-ad {
   display: inline-block;
   width: 728px;
-  height: 90px;
   max-width: 728px;
   min-width: 728px;
+  height: 90px;
   max-height: 90px;
   min-height: 90px;
   overflow: hidden;
@@ -29,9 +29,9 @@
 .square-ad {
   display: inline-block;
   width: 300px;
-  height: 250px;
   max-width: 300px;
   min-width: 300px;
+  height: 250px;
   max-height: 250px;
   min-height: 250px;
   overflow: hidden;
@@ -57,9 +57,9 @@ body:before {
   top: 0px;
   left: 0px;
   display: block;
-  content: "";
   width: 100%;
   height: 100vh;
+  content: "";
   background: url(../images/fortnitebkg.png) no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -144,68 +144,74 @@ body:before {
   height: 70px;
   padding-left: 13px;
   cursor: pointer;
+  transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
-  transform: rotate(0deg);
+  transition: .5s ease-in-out;
   -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
 }
 
 .icon span {
   position: absolute;
-  left: 0;
+  left: 0px;
   display: block;
   height: 5px;
   width: 45px;
-  margin-left: 75px;
   margin-top: 18px;
+  margin-left: 75px;
   background: #ffffff;
-  border-radius: 4px;
   opacity: 1;
+  border-radius: 4px;
+  transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
-  transform: rotate(0deg);
+  transition: .25s ease-in-out;
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
 }
 
 .icon span:nth-child(1) {
+  position: absolute;
   top: 0px;
 }
 
 .icon span:nth-child(2) {
+  position: absolute;
   top: 12px;
 }
 
 .icon span:nth-child(3) {
+  position: absolute;
   top: 24px;
 }
 
 .icon.open span:nth-child(1) {
+  position: absolute;
   top: 12px;
+  transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -o-transform: rotate(135deg);
-  transform: rotate(135deg);
 }
 
 .icon.open span:nth-child(2) {
-  opacity: 0;
+  position: absolute;
   left: -60px;
+  opacity: 0;
 }
 
 .icon.open span:nth-child(3) {
+  position: absolute;
   top: 12px;
+  transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
-  transform: rotate(-135deg);
 }
 
 #toggle {
@@ -237,23 +243,23 @@ body:before {
 
 .gun-image {
   display: inline-block;
-  transition: .2s ease-in;
   width: 90px;
   height: 90px;
   margin-bottom: 8px;
   padding: 5px;
+  border: #ffffff 4px solid;
   box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
   -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
   -moz-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  border: #ffffff 4px solid;
+  transition: .2s ease-in;
 }
 
 .gun-image:hover {
-  transform: scale(1.050, 1.050);
-  transition: .3s ease-in;
   -webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+  transform: scale(1.050, 1.050);
+  transition: .3s ease-in;
 }
 
 .gun-info-1-line {
@@ -302,25 +308,25 @@ body:before {
 .content {
   position: absolute;
   top: -6px;
-  transition: max-height .2s ease-in-out;
   height: 187px;
   max-height: 0px;
   background-color: #324a77;
   overflow: hidden;
   z-index: 1;
   border-top: solid #324a77 6px;
+  transition: max-height .2s ease-in-out;
 }
 
 .large-content {
   position: absolute;
   top: -6px;
-  transition: max-height .2s ease-in-out;
   height: 543px;
   max-height: 0px;
   background-color: #324a77;
   overflow: hidden;
   z-index: 1;
   border-top: solid #324a77 6px;
+  transition: max-height .2s ease-in-out;
 }
 
 .text {
@@ -352,8 +358,8 @@ body:before {
 }
 
 .click:hover {
-  transition: .3s ease-in;
   background-color: #324a77;
+  transition: .3s ease-in;
 }
 
 #check, #check-2, #check-3, #check-4, #check-5, #check-6, #check-7, #check-8 {
@@ -395,8 +401,8 @@ input[type="checkbox"]:checked ~ .large-content {
 }
 
 .copyright a {
-  color: #ffffff;
   transition: .12s ease-in;
+  color: #ffffff;
 }
 
 .copyright a:hover {
@@ -404,7 +410,7 @@ input[type="checkbox"]:checked ~ .large-content {
 }
 
 /* Common static */
-#assault-rifle, #burst-assault-rifle, #heavy-assault-rifle, #suppressed-submachine-gun, #submachine-gun-old, #submachine-gun-new, #tactical-shotgun, #pistol, #revolver, #flint-knock-pistol {
+#assault-rifle, #burst-assault-rifle, #heavy-assault-rifle, #suppressed-submachine-gun, #submachine-gun-old, #submachine-gun-new, #burst-smg, #tactical-shotgun, #pistol, #revolver, #flint-knock-pistol {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
@@ -432,7 +438,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
-#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #submachine-gun-old:hover, #suppressed-submachine-gun:hover, #submachine-gun-new:hover, #drum-gun:hover, #tactical-shotgun:hover, #semi-auto-sniper-rifle:hover, #hunting-rifle:hover, #revolver:hover {
+#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #submachine-gun-old:hover, #suppressed-submachine-gun:hover, #submachine-gun-new:hover, #drum-gun:hover, #burst-smg:hover, #tactical-shotgun:hover, #semi-auto-sniper-rifle:hover, #hunting-rifle:hover, #revolver:hover {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */
@@ -648,7 +654,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer {
     position: absolute;
-    top: 580px;
+    top: 680px;
   }
 }
 
@@ -740,6 +746,11 @@ input[type="checkbox"]:checked ~ .large-content {
   .gun-title {
     font-size: 32px;
   }
+
+  .footer {
+    position: absolute;
+    top: 671px;
+  }
 }
 
 /* For screens of 360px or less */
@@ -760,7 +771,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   #advertisement-bottom {
     position: relative;
-    top: 1502px;
+    top: 1503px;
   }
 
   #submachine-gun-nav {
@@ -842,6 +853,11 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .gun-title {
     font-size: 30px;
+  }
+
+  .footer {
+    position: absolute;
+    top: 662px;
   }
 }
 
