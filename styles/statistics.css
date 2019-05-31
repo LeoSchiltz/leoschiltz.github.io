@@ -6,21 +6,21 @@
 }
 
 @font-face {
-  font-family: 'Alegreya Sans SC Black';
-  src: url('fonts/AlegreyaSansSC-Black.ttf');
+  font-family: 'Burbank';
+  src: url('fonts/BurbankBigCondensed-Bold.otf');
 }
 
 @font-face {
-  font-family: 'Burbank';
-  src: url('fonts/BurbankBigCondensed-Bold.otf');
+  font-family: 'Alegreya Sans SC Black';
+  src: url('fonts/AlegreyaSansSC-Black.ttf');
 }
 
 .horizontal-ad {
   display: inline-block;
   width: 728px;
-  height: 90px;
   max-width: 728px;
   min-width: 728px;
+  height: 90px;
   max-height: 90px;
   min-height: 90px;
   overflow: hidden;
@@ -29,9 +29,9 @@
 .square-ad {
   display: inline-block;
   width: 300px;
-  height: 250px;
   max-width: 300px;
   min-width: 300px;
+  height: 250px;
   max-height: 250px;
   min-height: 250px;
   overflow: hidden;
@@ -44,8 +44,8 @@
 
 #advertisement-right {
   position: absolute;
-  top: calc(518px - (/* height */250px / 2));
-  left: calc(80vw - (/* width */300px / 2));
+  top: calc(518px - (250px / 2));
+  left: calc(80vw - (300px / 2));
   z-index: 1;
 }
 
@@ -59,14 +59,14 @@ body:before {
   top: 0px;
   left: 0px;
   display: block;
-  content: "";
   width: 100%;
   height: 100vh;
+  content: "";
   background: url(../images/fortnitebkg.png) no-repeat center center;
   background-size: cover;
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   z-index: -1;
 }
 
@@ -90,13 +90,13 @@ a:hover {
   background-color: #223861;
   color: #ffffff;
   box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  z-index: 2;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
+  z-index: 2;
 }
 
 .heading {
@@ -115,11 +115,11 @@ a:hover {
   height: 156px;
   background-color: #223861;
   color: #ffffff;
-  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   border-top: solid #ffffff;
   border-bottom: solid #ffffff;
+  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
 }
 
 .gun-image {
@@ -184,7 +184,7 @@ a:hover {
   top: 365px;
   height: 305px;
   background-color: rgba(34, 56, 97, .3);
-  border-bottom: solid white 4px;
+  border-bottom: solid #ffffff 4px;
 }
 
 table.bigSiteTable {
@@ -196,10 +196,10 @@ table.bigSiteTable {
   font-family: 'Burbank', 'Alegreya Sans SC', 'Alegreya Sans SC Black', sans-serif;
   background-color: #223861;
   color: #ffffff;
-  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   text-align: center;
+  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -224,10 +224,10 @@ table.smallSiteTable {
   font-family: 'Burbank', 'Alegreya Sans SC', 'Alegreya Sans SC Black', sans-serif;
   background-color: #223861;
   color: #ffffff;
-  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   text-align: center;
+  box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -275,8 +275,8 @@ table.smallSiteTable tbody td {
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
-  -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
 }
 
 .copyright {
@@ -291,7 +291,7 @@ table.smallSiteTable tbody td {
 
 .copyright a {
   color: #ffffff;
-  transition: .12s ease-in;
+  transition: 0.12s ease-in;
 }
 
 .copyright a:hover {
@@ -309,11 +309,11 @@ table.smallSiteTable tbody td {
   top: 70px;
   width: 90%;
   height: 918px;
-  margin: 0 auto;
+  margin: 0px auto;
   background-color: rgba(34, 56, 97, 0.6);
-  -webkit-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
-  -moz-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
   box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
 }
 
 .title-about {
@@ -330,8 +330,8 @@ table.smallSiteTable tbody td {
   box-sizing: border-box;
   padding: 15px;
   padding-left: 5px;
-  font-size: 20px;
   font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
+  font-size: 20px;
   color: #ffffff;
   border-bottom: solid #f7ca18 1px;
 }
@@ -340,8 +340,8 @@ table.smallSiteTable tbody td {
   box-sizing: border-box;
   padding: 15px;
   padding-left: 5px;
-  font-size: 20px;
   font-family: 'Alegreya Sans SC', 'Alegreya Sans SC Black', 'Burbank', sans-serif;
+  font-size: 20px;
   color: #ffffff;
   border-bottom: solid #f7ca18 1px;
 }
@@ -364,7 +364,7 @@ table.smallSiteTable tbody td {
   width: 60%;
   font-size: 150px;
   background-color: rgba(34, 56, 97, 0.3);
-  border-bottom: solid;
+  border-bottom: solid #ffffff 4px;
 }
 
 .missing {
@@ -418,7 +418,7 @@ table.smallSiteTable tbody td {
   }
 }
 
-/* For screens of 925px or less */
+/* For screens of 970px or less */
 @media only screen and (max-width: 970px) {
   #advertisement-right {
     display: none;
@@ -467,9 +467,9 @@ table.smallSiteTable tbody td {
 @media only screen and (max-width: 770px) {
   .horizontal-ad {
     width: 95%;
-    height: 90px;
     max-width: 95%;
     min-width: 95%;
+    height: 90px;
     max-height: 90px;
     min-height: 90px;
     overflow: hidden;
@@ -554,6 +554,14 @@ table.smallSiteTable tbody td {
 
   .background-about {
     height: 1088px;
+  }
+}
+
+/* For screens of 675px or less */
+@media only screen and (max-width: 675px) {
+  .background-about {
+    width: 100%;
+    border: solid 0px;
   }
 }
 
@@ -654,14 +662,6 @@ table.smallSiteTable tbody td {
 
   .background-about {
     height: 1108px;
-  }
-}
-
-/* For screens of 675px or less */
-@media only screen and (max-width: 675px) {
-  .background-about {
-    width: 100%;
-    border: solid 0px;
   }
 }
 

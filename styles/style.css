@@ -62,27 +62,27 @@ body:before {
   content: "";
   background: url(../images/fortnitebkg.png) no-repeat center center;
   background-size: cover;
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .header {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 327px;
+  width: 28%;
   height: 70px;
   line-height: 70px;
   padding-left: 15px;
   font-family: 'Burbank', 'Alegreya Sans SC', 'Alegreya Sans SC Black', sans-serif;
   font-size: 40px;
   color: #ffffff;
-  z-index: 2;
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
+  z-index: 2;
 }
 
 .heading {
@@ -101,14 +101,14 @@ body:before {
   height: 70px;
   background-color: #223861;
   text-align: right;
-  z-index: 1;
   box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(39,38,38,0.6);
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
+  z-index: 1;
 }
 
 .menu a {
@@ -145,34 +145,34 @@ body:before {
   padding-left: 13px;
   cursor: pointer;
   transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   transition: .5s ease-in-out;
-  -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
 }
 
 .icon span {
   position: absolute;
   left: 0px;
   display: block;
-  height: 5px;
   width: 45px;
+  height: 5px;
   margin-top: 18px;
   margin-left: 75px;
   background: #ffffff;
   opacity: 1;
   border-radius: 4px;
   transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   transition: .25s ease-in-out;
-  -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
 }
 
 .icon span:nth-child(1) {
@@ -194,9 +194,9 @@ body:before {
   position: absolute;
   top: 12px;
   transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 .icon.open span:nth-child(2) {
@@ -209,9 +209,9 @@ body:before {
   position: absolute;
   top: 12px;
   transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
 }
 
 #toggle {
@@ -249,17 +249,17 @@ body:before {
   padding: 5px;
   border: #ffffff 4px solid;
   box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
   -moz-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(41,41,41,0.5);
   transition: .2s ease-in;
 }
 
 .gun-image:hover {
-  -webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
-  transform: scale(1.050, 1.050);
+  -moz-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
   transition: .3s ease-in;
+  transform: scale(1.050, 1.050);
 }
 
 .gun-info-1-line {
@@ -312,9 +312,9 @@ body:before {
   max-height: 0px;
   background-color: #324a77;
   overflow: hidden;
-  z-index: 1;
   border-top: solid #324a77 6px;
   transition: max-height .2s ease-in-out;
+  z-index: 1;
 }
 
 .large-content {
@@ -324,9 +324,9 @@ body:before {
   max-height: 0px;
   background-color: #324a77;
   overflow: hidden;
-  z-index: 1;
   border-top: solid #324a77 6px;
   transition: max-height .2s ease-in-out;
+  z-index: 1;
 }
 
 .text {
@@ -349,12 +349,13 @@ body:before {
   font-size: 20px;
   color: #f7ca18;
   cursor: pointer;
-  z-index: 3;
   border: solid #ffffff 2px;
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
+  z-index: 3;
+
 }
 
 .click:hover {
@@ -368,16 +369,16 @@ body:before {
 
 input[type="checkbox"]:checked ~ .content {
   max-height: 187px;
-  z-index: 2;
   border-top: solid #ffffff 6px;
   border-bottom: solid #ffffff 6px;
+  z-index: 2;
 }
 
 input[type="checkbox"]:checked ~ .large-content {
   max-height: 543px;
-  z-index: 2;
   border-top: solid #ffffff 6px;
   border-bottom: solid #ffffff 6px;
+  z-index: 2;
 }
 
 .footer-color {
@@ -386,8 +387,8 @@ input[type="checkbox"]:checked ~ .large-content {
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
-  -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
   -moz-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
+  -webkit-box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
 }
 
 .copyright {
@@ -401,7 +402,7 @@ input[type="checkbox"]:checked ~ .large-content {
 }
 
 .copyright a {
-  transition: .12s ease-in;
+  transition: 0.12s ease-in;
   color: #ffffff;
 }
 
@@ -410,11 +411,11 @@ input[type="checkbox"]:checked ~ .large-content {
 }
 
 /* Common static */
-#assault-rifle, #burst-assault-rifle, #heavy-assault-rifle, #suppressed-submachine-gun, #submachine-gun-old, #submachine-gun-new, #burst-smg, #tactical-shotgun, #pistol, #revolver, #flint-knock-pistol {
+#assault-rifle, #burst-assault-rifle, #heavy-assault-rifle, #submachine-gun-new, #suppressed-submachine-gun, #submachine-gun-old, #burst-smg, #tactical-shotgun, #pistol, #revolver, #flint-knock-pistol {
   background: radial-gradient(#d0d0d0 0%,#6d7071 100%);
 }
 /* Uncommon static */
-#scoped-assault-rifle, #infantry-rifle, #tactical-submachine-gun, #drum-gun, #pump-shotgun, #semi-auto-sniper-rifle, #hunting-rifle, #six-shooter {
+#scoped-assault-rifle, #infantry-rifle, #tactical-submachine-gun, #drum-gun, #pump-shotgun, #hunting-rifle, #semi-auto-sniper-rifle, #six-shooter {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare static */
@@ -438,7 +439,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
-#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #submachine-gun-old:hover, #suppressed-submachine-gun:hover, #submachine-gun-new:hover, #drum-gun:hover, #burst-smg:hover, #tactical-shotgun:hover, #semi-auto-sniper-rifle:hover, #hunting-rifle:hover, #revolver:hover {
+#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #submachine-gun-new:hover, #suppressed-submachine-gun:hover, #submachine-gun-old:hover, #drum-gun:hover, #burst-smg:hover, #tactical-shotgun:hover, #hunting-rifle:hover, #semi-auto-sniper-rifle:hover, #revolver:hover {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */
@@ -446,7 +447,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #infantry-rifle:hover, #tactical-assault-rifle:hover, #compact-smg:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #combat-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover #zapotron:hover, #minigun:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #infantry-rifle:hover, #tactical-assault-rifle:hover, #compact-smg:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #combat-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover, #minigun:hover, #zapotron:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
@@ -467,17 +468,11 @@ input[type="checkbox"]:checked ~ .large-content {
     width: 90%;
   }
 
-  .icon {
-    display: block;
-    padding-right: 22px;
-    cursor: pointer;
-  }
-
   .menu {
     max-height: 0px;
-    transition: max-height .5s ease-in-out;
     opacity: 0;
     overflow: hidden;
+    transition: max-height .5s ease-in-out;
   }
 
   .menu a {
@@ -503,6 +498,13 @@ input[type="checkbox"]:checked ~ .large-content {
     opacity: 1;
 }
 
+  .icon {
+    display: block;
+    padding-right: 22px;
+    cursor: pointer;
+  }
+}
+
 /* For screens of 985px or less */
 @media only screen and (max-width: 985px) {
   .header {
@@ -512,13 +514,13 @@ input[type="checkbox"]:checked ~ .large-content {
 
 /* For screens of 930px or less */
 @media only screen and (max-width: 930px) {
+  .gun-nav il {
+    margin: 0 10px;
+  }
+
   .gun-image {
     width: 80px;
     height: 80px;
-  }
-
-  .gun-nav il {
-    margin: 0 10px;
   }
 
   .gun-info-1-line {
@@ -553,9 +555,9 @@ input[type="checkbox"]:checked ~ .large-content {
 @media only screen and (max-width: 770px) {
   .horizontal-ad {
     width: 95%;
-    height: 90px;
     max-width: 95%;
     min-width: 95%;
+    height: 90px;
     max-height: 90px;
     min-height: 90px;
     overflow: hidden;
@@ -564,13 +566,13 @@ input[type="checkbox"]:checked ~ .large-content {
 
 /* For screens of 760px or less */
 @media only screen and (max-width: 760px) {
+  .gun-nav il {
+    margin: 0 5px;
+  }
+
   .gun-image {
     width: 70px;
     height: 70px;
-  }
-
-  .gun-nav il {
-    margin: 0 5px;
   }
 
   .gun-info-1-line {
@@ -658,14 +660,14 @@ input[type="checkbox"]:checked ~ .large-content {
   }
 }
 
-/* For screns of 465px or less */
+/* For screens of 465px or less */
 @media only screen and (max-width: 465px) {
   .header {
     width: 78%;
   }
 }
 
-/* For screns of 440px or less */
+/* For screens of 440px or less */
 @media only screen and (max-width: 440px) {
   .header {
     width: 78%;
@@ -677,39 +679,44 @@ input[type="checkbox"]:checked ~ .large-content {
   }
 
   .icon span {
-    margin-top: 20px;
-    margin-left: 85px;
     width: 40px;
     height: 4px;
+    margin-top: 20px;
+    margin-left: 85px;
   }
 
   .icon span:nth-child(1) {
+    position: absolute;
     top: 0px;
   }
 
   .icon span:nth-child(2) {
+    position: absolute;
     top: 10px;
   }
 
   .icon span:nth-child(3) {
+    position: absolute;
     top: 20px;
   }
 
   .icon.open span:nth-child(1) {
+    position: absolute;
     top: 10px;
   }
 
   .icon.open span:nth-child(3) {
+    position: absolute;
     top: 10px;
   }
 }
 
-/* For screns of 380px or less */
+/* For screens of 380px or less */
 @media only screen and (max-width: 380px) {
   .header {
     width: 77%;
-    font-size: 30px;
     padding-left: 5px;
+    font-size: 30px;
   }
 
   .heading {
@@ -717,29 +724,34 @@ input[type="checkbox"]:checked ~ .large-content {
   }
 
   .icon span {
-    margin-top: 21px;
-    margin-left: 95px;
     width: 35px;
     height: 4px;
+    margin-top: 21px;
+    margin-left: 95px;
   }
 
   .icon span:nth-child(1) {
+    position: absolute;
     top: 0px;
   }
 
   .icon span:nth-child(2) {
+    position: absolute;
     top: 9px;
   }
 
   .icon span:nth-child(3) {
+    position: absolute;
     top: 18px;
   }
 
   .icon.open span:nth-child(1) {
+    position: absolute;
     top: 9px;
   }
 
   .icon.open span:nth-child(3) {
+    position: absolute;
     top: 9px;
   }
 
@@ -757,9 +769,9 @@ input[type="checkbox"]:checked ~ .large-content {
 @media only screen and (max-width: 360px) {
   .square-ad {
     width: 260px;
-    height: 240px;
     max-width: 260px;
     min-width: 260px;
+    height: 240px;
     max-height: 240px;
     min-height: 240px;
   }
@@ -816,8 +828,8 @@ input[type="checkbox"]:checked ~ .large-content {
 @media only screen and (max-width: 340px) {
   .header {
     width: 80%;
-    font-size: 27px;
     padding-left: 5px;
+    font-size: 27px;
   }
 
   .heading {
@@ -825,29 +837,34 @@ input[type="checkbox"]:checked ~ .large-content {
   }
 
   .icon span {
-    margin-top: 22px;
-    margin-left: 98px;
     width: 32px;
     height: 4px;
+    margin-top: 22px;
+    margin-left: 98px;
   }
 
   .icon span:nth-child(1) {
+    position: absolute;
     top: 0px;
   }
 
   .icon span:nth-child(2) {
+    position: absolute;
     top: 8px;
   }
 
   .icon span:nth-child(3) {
+    position: absolute;
     top: 16px;
   }
 
   .icon.open span:nth-child(1) {
+    position: absolute;
     top: 8px;
   }
 
   .icon.open span:nth-child(3) {
+    position: absolute;
     top: 8px;
   }
 
