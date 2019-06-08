@@ -615,7 +615,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   #advertisement-bottom {
     position: relative;
-    top: 1567px;
+    top: 1467.5px;
   }
 
   .header {
@@ -630,24 +630,20 @@ input[type="checkbox"]:checked ~ .large-content {
     display: block;
   }
 
-  #assault-rifle-nav, #sniper-rifle-nav, #pistol-nav {
+  #assault-rifle-nav, #pistol-nav {
     padding-bottom: 95px;
   }
 
-  #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav {
+  #submachine-gun-nav, #shotgun-nav, #sniper-rifle-nav, #pistol-nav {
     margin-top: 100px;
   }
 
-  #pistol-nav {
+  #explosive-nav, #other-nav {
     margin-top: 200px;
   }
 
-  #explosive-nav, #other-nav {
-    margin-top: 300px;
-  }
-
   #vaulted-nav {
-    margin-top: 295px;
+    margin-top: 195px;
   }
 
   .content, .large-content, .click {
@@ -656,7 +652,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer {
     position: absolute;
-    top: 680px;
+    top: 585px;
   }
 }
 
@@ -758,11 +754,6 @@ input[type="checkbox"]:checked ~ .large-content {
   .gun-title {
     font-size: 32px;
   }
-
-  .footer {
-    position: absolute;
-    top: 671px;
-  }
 }
 
 /* For screens of 360px or less */
@@ -783,7 +774,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   #advertisement-bottom {
     position: relative;
-    top: 1503px;
+    top: 1413px;
   }
 
   #submachine-gun-nav {
@@ -799,19 +790,19 @@ input[type="checkbox"]:checked ~ .large-content {
   }
 
   #pistol-nav {
-    margin-top: 140px;
+    margin-top: 50px;
   }
 
   #explosive-nav {
-    margin-top: 225px;
+    margin-top: 135px;
   }
 
   #other-nav {
-    margin-top: 215px;
+    margin-top: 125px;
   }
 
   #vaulted-nav {
-    margin-top: 200px;
+    margin-top: 110px;
   }
 
   .footer-color {
@@ -870,11 +861,6 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .gun-title {
     font-size: 30px;
-  }
-
-  .footer {
-    position: absolute;
-    top: 662px;
   }
 }
 
