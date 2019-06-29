@@ -383,7 +383,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
 .footer-color {
   position: absolute;
-  top: 2735px;
+  top: 2620px;
   height: 100px;
   background-color: #223861;
   box-shadow: 0px -3px 20px 0px rgba(39,38,38,0.6);
@@ -419,11 +419,11 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare static */
-#tactical-assault-rifle, #combat-shotgun, #bolt-action-sniper-rifle, #suppressed-pistol, #dual-pistols, #grenade-launcher, #crossbow, #light-machine-gun {
+#combat-shotgun, #bolt-action-sniper-rifle, #suppressed-pistol, #dual-pistols, #grenade-launcher, #crossbow, #light-machine-gun {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic static */
-#thermal-assault-rifle, #suppressed-assault-rifle, #compact-smg, #heavy-shotgun, #double-barrel-shotgun, #heavy-sniper-rifle, #suppressed-sniper-rifle, #hand-cannon, #scoped-revolver, #rocket-launcher, #guided-missile, #quad-launcher, #proximity-grenade-launcher, #minigun, #fiend-hunter-crossbow, #cupids-crossbow {
+#thermal-assault-rifle, #suppressed-assault-rifle, #tactical-assault-rifle, #compact-smg, #heavy-shotgun, #double-barrel-shotgun, #heavy-sniper-rifle, #suppressed-sniper-rifle, #hand-cannon, #scoped-revolver, #rocket-launcher, #guided-missile, #quad-launcher, #proximity-grenade-launcher, #minigun, #fiend-hunter-crossbow, #cupids-crossbow {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary static */
@@ -439,7 +439,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#5bad03 0%,#01700a 100%);
 }
 /* Rare hover */
-#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #submachine-gun-new:hover, #suppressed-submachine-gun:hover, #submachine-gun-old:hover, #drum-gun:hover, #burst-smg:hover, #tactical-shotgun:hover, #hunting-rifle:hover, #semi-auto-sniper-rifle:hover, #revolver:hover {
+#scoped-assault-rifle:hover, #heavy-assault-rifle:hover, #submachine-gun-new:hover, #suppressed-submachine-gun:hover, #submachine-gun-old:hover, #drum-gun:hover, #burst-smg:hover, #tactical-shotgun:hover, #pump-shotgun:hover, #hunting-rifle:hover, #semi-auto-sniper-rifle:hover {
   background: radial-gradient(#3dc7ff 0%,#0059a1 100%);
 }
 /* Epic hover */
@@ -447,7 +447,7 @@ input[type="checkbox"]:checked ~ .large-content {
   background: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 /* Legendary hover */
-#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #infantry-rifle:hover, #tactical-assault-rifle:hover, #compact-smg:hover, #pump-shotgun:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #combat-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover, #proximity-grenade-launcher:hover, #minigun:hover, #zapotron:hover {
+#assault-rifle:hover, #burst-assault-rifle:hover, #thermal-assault-rifle:hover, #suppressed-assault-rifle:hover, #infantry-rifle:hover, #tactical-assault-rifle:hover, #compact-smg:hover, #heavy-shotgun:hover, #double-barrel-shotgun:hover, #combat-shotgun:hover, #heavy-sniper-rifle:hover, #suppressed-sniper-rifle:hover, #hand-cannon:hover, #scoped-revolver:hover, #revolver:hover, #rocket-launcher:hover, #grenade-launcher:hover, #guided-missile:hover, #quad-launcher:hover, #boom-bow:hover, #proximity-grenade-launcher:hover, #minigun:hover, #zapotron:hover {
   background: radial-gradient(#fb9625 0%,#875134 100%);
 }
 
@@ -547,7 +547,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 2685px;
+    top: 2580px;
   }
 }
 
@@ -602,7 +602,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 2635px;
+    top: 2540px;
   }
 }
 
@@ -807,7 +807,7 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 2542px;
+    top: 2445px;
   }
 
   .copyright {
@@ -894,6 +894,6 @@ input[type="checkbox"]:checked ~ .large-content {
 
   .footer-color {
     position: absolute;
-    top: 2495px;
+    top: 2405px;
   }
 }
